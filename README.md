@@ -1,8 +1,10 @@
-NET3204 DS August 2020 - Distributed Systems
-Sunway University -
-Final Project
+## NET3204 DS August 2020 - Distributed Systems
+### Sunway University -
+### Final Project
 
-## Group Members
+---
+
+### Group Members
 No | Name
 ------------ | -------------
 1 | Joshua Daveston Ahimaz
@@ -11,5 +13,11 @@ No | Name
 4 | Joey Nelson Yatim
 5 | Muhammad Azzim Bin Nor Fazilan
 
-## Trello Board
+---
+
+### Trello Board
 https://trello.com/b/dXwzfsl3/distributed-systems
+
+---
+
+### How To Install? - Lecturer Reference
