@@ -3,7 +3,7 @@ Sunway University -
 Final Project
 
 ## Group Members
-# | Name
+No | Name
 ------------ | -------------
 1 | Joshua Daveston Ahimaz
 2 | Julian Lieow Ter Foo
