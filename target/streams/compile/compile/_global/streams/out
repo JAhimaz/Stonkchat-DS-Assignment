@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\GL62M 7RD\scalaProjects\akkaStore\src\main\scala\com\hep88\Client.scala:74:9: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: FindTheServer, Joined(_), ListingResponse(_), LogInAttempt(_, _), LogInResult(_), ReachabilityChange(_), RegisterAttempt(_, _), RegisterResult(_), StartJoin(_), start[0m
+[0m[[0m[33mwarn[0m] [0m[0m        message match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
