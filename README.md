@@ -21,3 +21,7 @@ https://trello.com/b/dXwzfsl3/distributed-systems
 ---
 
 ### How To Install? - Lecturer Reference
+
+### Run Server With This Command
+run sbt with the folllowing command:
+sbt -Djava.security.policy=no.policy
