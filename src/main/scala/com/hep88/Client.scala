@@ -268,6 +268,7 @@ object ChatClient {
                 for (name <- nameOpt;
                     remote <- remoteOpt){
                     remote ! ChatServer.Leave(name, context.self)
+                    groupRefOpt.get ! SubGroupActor.Leave(name,context.self)
                 }
                 Behaviors.same
         })

@@ -26,7 +26,7 @@ import scala.util.{Failure, Success}
 object ChatServer {
   //setupDB -> uncomment if server running. 
   //comment if client running
-  //Database.setupDB()
+  Database.setupDB()
   
   sealed trait Command extends JsonSerializable
   //protocol 

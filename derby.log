@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-Fri Dec 04 23:55:09 SGT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0176-2e76-d969-000029ceb688 
-on database directory C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\chatDB with class loader sbt.internal.LayeredClassLoader@23d9922 
-Loaded from file:/C:/Users/GL62M7~1/AppData/Local/Temp/sbt_6620f479/target/e8326856/2903ffb3/derby-10.13.1.1.jar
+Sat Dec 05 17:54:05 SGT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0176-3252-a168-00002b900d68 
+on database directory C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\chatDB with class loader sbt.internal.LayeredClassLoader@3b2034a8 
+Loaded from file:/C:/Users/GL62M7~1/AppData/Local/Temp/sbt_78b7fde5/target/e8326856/2903ffb3/derby-10.13.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_271-b09
 user.dir=C:\Users\GL62M 7RD\scalaProjects\STONKCHAT

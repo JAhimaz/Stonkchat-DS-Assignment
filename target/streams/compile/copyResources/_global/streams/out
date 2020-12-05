@@ -1,5 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\resources\application.conf,C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\resources\com\hep88\images\Logo.png,C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\images\Logo.png)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\resources\com\hep88\view\GroupCreationDialog.fxml,C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\GroupCreationDialog.fxml)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\resources\com\hep88\view\groupView.fxml,C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\groupView.fxml)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\resources\com\hep88\view\LogInView.fxml,C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\LogInView.fxml)[0m

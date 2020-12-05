@@ -14,14 +14,12 @@ import scalafxml.core.{FXMLLoader, NoDependencyResolver}
 @sfxml
 class LogInController (
                         private val usernameField : TextField,
-                        private val passwordField: TextField
+                        private val passwordField: TextField,
                       ){
 
   var dialogStage: Stage = null
 
   var chatClientRef: Option[ActorRef[ChatClient.Command]] = None
-
-  
 
   var username = usernameField.text
   var password = passwordField.text
@@ -31,6 +29,8 @@ class LogInController (
         chatClientRef map (_ ! ChatClient.LogInAttempt(usernameField.text(),passwordField.text()))
     }
   }
+
+
 
 
   def successfulLogin():Unit={
