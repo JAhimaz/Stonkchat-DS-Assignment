@@ -24,15 +24,13 @@
          <children>
             <Label text="Name" />
             <TextField fx:id="txtName" editable="false" GridPane.columnIndex="1" />
-            <Button mnemonicParsing="false" onAction="#handleJoin" text="Join" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#handleJoinGroup" text="Join Group" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Label text="Status" GridPane.rowIndex="2" />
             <Label fx:id="lblStatus" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#createGroup" text="Create Group" GridPane.rowIndex="1" />
          </children>
       </GridPane>
-      <ListView fx:id="listMessage" layoutX="321.0" layoutY="14.0" prefHeight="285.0" prefWidth="237.0" />
-      <ListView fx:id="listUser" layoutX="44.0" layoutY="117.0" prefHeight="141.0" prefWidth="200.0" />
-      <TextField fx:id="txtMessage" layoutX="101.0" layoutY="291.0" />
-      <Label layoutX="26.0" layoutY="291.0" text="Message:" />
-      <Button layoutX="257.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleSend" text="Send" />
+      <ListView fx:id="listGroup" layoutX="44.0" layoutY="117.0" prefHeight="141.0" prefWidth="200.0" />
+      <Button layoutX="221.0" layoutY="43.0" mnemonicParsing="false" onAction="#disbandGroup" text="DISBAND GROUP" />
    </children>
 </AnchorPane>

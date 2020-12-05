@@ -15,7 +15,10 @@ import akka.cluster.ClusterEvent.ReachableMember
 import akka.cluster.ClusterEvent.UnreachableMember
 import akka.cluster.ClusterEvent.MemberEvent
 import akka.actor.Address
+import akka.actor.typed.ActorSystem
+import akka.actor.PoisonPill
 
+import com.hep88.model.SubGroupActor
 
 
 object ChatClient {
@@ -25,23 +28,33 @@ object ChatClient {
 
     //GUI protocol
     case class StartJoin(name: String) extends Command
-    final case class SendMessageL(target: ActorRef[ChatClient.Command], content: String) extends Command
+    final case class SendMessageL(target: ActorRef[SubGroupActor.Command], content: String) extends Command
     case class LogInAttempt(username : String,password : String) extends Command
     case class RegisterAttempt(username: String,password : String) extends Command
 
    
     //chat protocol 
     final case class MemberList(list: Iterable[User]) extends Command
-    final case class Joined(list: Iterable[User]) extends Command
-    final case class Message(msg: String, from: ActorRef[ChatClient.Command]) extends Command
+    final case class GroupList(list: Iterable[Group]) extends Command
+    final case class Joined(groupOwner: Option[Address], gname : String ) extends Command
+    final case class Message(msg: String) extends Command
 
     //chat protocol login
-    final case class LogInResult(validity : Boolean ) extends Command
+    final case class LogInResult(validity : Boolean, list: Iterable[Group] ) extends Command
 
     //chat protocol register
     final case class RegisterResult(validity: Boolean) extends Command
 
-    //cluster receptinish 
+    //group chat protocol
+    final case class CreateGroup(gname : String,name : String) extends Command
+    final case class JoinGroup(name: String, gref: ActorRef[SubGroupActor.Command]) extends Command
+    final case object GroupOwnerLeft extends Command
+    final case object DisbandGroup extends Command
+    final case class LeaveGroup(gref: ActorRef[SubGroupActor.Command] ) extends Command
+    final case class DisplayMemberList(list: Iterable[User]) extends Command
+  
+
+    //cluster receptionist
     final case object FindTheServer extends Command
     private case class ListingResponse(listing: Receptionist.Listing) extends Command
 
@@ -51,47 +64,28 @@ object ChatClient {
 
     //state
     var defaultBehavior: Option[Behavior[ChatClient.Command]] = None
-    var remoteOpt: Option[ActorRef[ChatServer.Command]] = None 
+    var remoteOpt: Option[ActorRef[ChatServer.Command]] = None
     var nameOpt: Option[String] = None
     val members = new ObservableHashSet[User]()
     val unreachables = new ObservableHashSet[Address]()
-    
+    val groups = new ObservableHashSet[Group]()
+    var groupRefOpt: Option[ActorRef[SubGroupActor.Command]] = None
+    var groupOwnerAddress: Option[Address] = None
+    var groupName:String=""
+    var groupCreated = false
+
     
     unreachables.onChange{(ns, _) =>
         Platform.runLater {
-            Client.mainController map (_.updateList(members.toList.filter(y => ! unreachables.exists (x => x == y.ref.path.address))))
+            Client.mainController map (_.updateList(groups.toList.filter(y => ! unreachables.exists (x => x == y.ref.path.address))))
             //Client.mainController.get.updateList(members.toList.filter(y => ! unreachables.exists (x => x == y.ref.path.address)))
         }
     }
 
-    members.onChange{(ns, _) =>
+    groups.onChange{(ns, _) =>
         Platform.runLater {
-            Client.mainController.get.updateList(ns.toList.filter(y => ! unreachables.exists (x => x == y.ref.path.address)))
-        }  
-    }
-    
-    def messageStarted(): Behavior[ChatClient.Command] = Behaviors.receive[ChatClient.Command] { (context, message) => 
-        message match {
-            case SendMessageL(target, content) =>
-                target ! Message(content, context.self)
-                Behaviors.same
-            case Message(msg, from) =>
-                Platform.runLater {
-                    Client.mainController.get.addText(msg)
-                }  
-                Behaviors.same
-            case MemberList(list: Iterable[User]) =>
-                members.clear()
-                members ++= list
-                Behaviors.same
+            Client.mainController map (_.updateList(groups.toList.filter(y => ! unreachables.exists (x => x == y.ref.path.address))))
         }
-    }.receiveSignal {
-        case (context, PostStop) =>
-            for (name <- nameOpt;
-                remote <- remoteOpt){
-            remote ! ChatServer.Leave(name, context.self)
-            }
-            defaultBehavior.getOrElse(Behaviors.same)
     }
 
     def apply(): Behavior[ChatClient.Command] =
@@ -117,7 +111,7 @@ object ChatClient {
         Cluster(context.system).subscriptions ! Subscribe(reachabilityAdapter, classOf[ReachabilityEvent])
 
         //context.actorOf(RemoteRouterConfig(RoundRobinPool(5), addresses).props(Props[ChatClient.TestActorClassic]()), "testA")
-        defaultBehavior = Some(Behaviors.receiveMessage { message =>
+        defaultBehavior = Some(Behaviors.receiveMessage[ChatClient.Command] { message =>
             message match {
                 
                 case ChatClient.start =>
@@ -162,16 +156,20 @@ object ChatClient {
                         }
                     }
                     Behaviors.same
+  
 
                 case LogInAttempt(username,password)=>
                     remoteOpt.map (_ ! ChatServer.LogIn(username,password,context.self))
                     Behaviors.same
 
-                case ChatClient.LogInResult(result)=>
+                case ChatClient.LogInResult(result,x)=>
                     if(result==true){
                         Platform.runLater{
                             Client.loginController.get.successfulLogin()
                         }
+                        groups.clear()
+                        groups ++= x
+
                     }
                     else{
                         Platform.runLater{
@@ -180,20 +178,82 @@ object ChatClient {
                     }
                     Behaviors.same
 
-                case StartJoin(name) =>
-                    nameOpt = Option(name)
-                    remoteOpt.map ( _ ! ChatServer.JoinChat(name, context.self))
+
+                case CreateGroup(gname,name)=>
+                    // help make sure doesnt repeat
+                    val r = scala.util.Random
+                    val groupRef = Client.mainSystem.spawn(SubGroupActor(),r.nextInt.toString)
+                    groupRef ! SubGroupActor.Initializer(Option(context.system.address),gname,remoteOpt.get)
+                    remoteOpt.map ( _ ! ChatServer.GroupCreation(gname,name, groupRef,context.self))
+                    groupCreated=true
                     Behaviors.same
-                case ChatClient.Joined(x) =>
-                    Platform.runLater {
-                        Client.mainController.get.displayStatus("joined")
+
+                case ChatClient.JoinGroup(name,groupRef)=>
+                    nameOpt = Option(name)
+                    groupRefOpt = Option(groupRef)
+                    groupRef ! SubGroupActor.JoinChat(name,context.self)
+                    Behaviors.same
+
+
+                case DisbandGroup =>
+                    groupRefOpt.get ! SubGroupActor.CloseGroup(context.self)
+                    Behaviors.same
+
+
+                case DisplayMemberList(list: Iterable[User])=>
+                    Platform.runLater{
+                        Client.showMemberListDialog(list.toList)
                     }
-                    members.clear()
-                    members ++= x
-                    messageStarted()
+                    Behaviors.same
+
+
+
+
+                case LeaveGroup(gref) =>
+                    gref ! SubGroupActor.Leave(nameOpt.get,context.self)
+                    groupOwnerAddress= None
+                    groupName=""
+                    Behaviors.same
+
+                case GroupList(list : Iterable[Group])=>
+                    groups.clear()
+                    groups ++= list
+                    Behaviors.same
+                    
+                case ChatClient.Joined(groupOwner,gname) =>
+                    groupOwnerAddress = groupOwner
+                    groupName= gname
+                    Platform.runLater {
+                        Client.showGroupChat()
+                        Client.groupChatController.get.setGroupRef(groupRefOpt)
+                    }
+                    Behaviors.same
+
+                case SendMessageL(target, content) =>
+                    target ! SubGroupActor.GroupMessage(content)
+                    Behaviors.same
+                case ChatClient.Message(msg) =>
+                    Platform.runLater {
+                        Client.groupChatController.get.addText(msg)
+
+                    }
+                    Behaviors.same
+
+                case GroupOwnerLeft =>
+                    Platform.runLater{
+                        Client.groupChatController.get.ownerLeft()
+                    }
+                    Behaviors.same
+
+                //process omission
                 case ReachabilityChange(reachabilityEvent) =>
                 reachabilityEvent match {
                     case UnreachableMember(member) =>
+                        if(groupOwnerAddress.get == member.address){
+                            Platform.runLater {
+                                Client.groupChatController.get.ownerLeft()
+                            }
+                        }
                         unreachables += member.address
                         Behaviors.same
                     case ReachableMember(member) =>
@@ -201,10 +261,17 @@ object ChatClient {
                         Behaviors.same
                 }                    
                 case _=>
-                    Behaviors.unhandled                    
+                    Behaviors.unhandled
             }
+        }.receiveSignal{
+            case (context, PostStop) =>
+                for (name <- nameOpt;
+                    remote <- remoteOpt){
+                    remote ! ChatServer.Leave(name, context.self)
+                }
+                Behaviors.same
         })
         defaultBehavior.get
+
     }
 }
-

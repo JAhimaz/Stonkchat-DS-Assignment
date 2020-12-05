@@ -2,11 +2,13 @@ package com.hep88.view
 import akka.actor.typed.ActorRef
 import scalafxml.core.macros.sfxml
 import scalafx.event.ActionEvent
-import scalafx.scene.control.{Label, ListView, TextField}
+import scalafx.scene.control.{Label, ListView, TextField,Alert}
+import scalafx.stage.Stage
 
 
 
 import com.hep88.ChatClient
+import com.hep88.Group
 import com.hep88.User
 import com.hep88.Client
 import scalafx.collections.ObservableBuffer
@@ -15,46 +17,79 @@ import scalafx.Includes._
 class MainWindowController(
   private val txtName: TextField,
   private val lblStatus: Label,
-  private val listUser: ListView[User],
-  private val listMessage: ListView[String],
-  private val txtMessage: TextField) {
+  private val listGroup: ListView[Group]
+  ) {
 
 
   var chatClientRef: Option[ActorRef[ChatClient.Command]] = None
 
   val receivedText: ObservableBuffer[String] =  new ObservableBuffer[String]()
 
-  listMessage.items = receivedText
+  var dialogStage : Stage  = null
+
+  var gname:String=""
+
 
   txtName.text() = Client.loggedInUser
 
-  def handleJoin(action: ActionEvent): Unit = {
-    if(txtName != null){
-      chatClientRef map (_ ! ChatClient.StartJoin(txtName.text()))
-
-    }
-      
+  
+  def updateList(x: Iterable[Group]): Unit ={
+    listGroup.items = new ObservableBuffer[Group]() ++= x
   }
 
-  def displayStatus(text: String): Unit = {
-    lblStatus.text = text
-  }
-
-  def updateList(x: Iterable[User]): Unit ={
-    listUser.items = new ObservableBuffer[User]() ++= x
-  }
-
-  def handleSend(actionEvent: ActionEvent): Unit ={
-    if (listUser.selectionModel().selectedIndex.value >= 0){
-      Client.userRef ! ChatClient.SendMessageL(listUser.selectionModel().selectedItem.value.ref,
-        txtMessage.text())
+  def handleJoinGroup(action : ActionEvent): Unit={
+    if (listGroup.selectionModel().selectedIndex.value >= 0){
+          Client.userRef ! ChatClient.JoinGroup(Client.loggedInUser,listGroup.selectionModel().selectedItem.value.ref)
+        }
+    else{
+        val alert = new Alert(Alert.AlertType.Warning) {
+        initOwner(dialogStage)
+        title = "NO GROUPS SELEECTED"
+        headerText = "YOU HAVE NOT SELECTED A GROUP TO JOIN"
+        contentText = "PLEASE SELECT A GROUP TO JOIN IN THE LIST OF GROUPS"
+        }.showAndWait()
     }
   }
 
+  
 
 
-  def addText(text: String): Unit = {
-      receivedText += text
+  def createGroup(actionEvent: ActionEvent):Unit={
+
+    if(ChatClient.groupCreated==true){
+        val alert = new Alert(Alert.AlertType.Warning) {
+        initOwner(dialogStage)
+        title = "ALREADY HAVE GROUP"
+        headerText = "ONLY 1 GROUP ALLOWED"
+        contentText = "PLEASE DISBAND CURRENT GROUP BEFORE CREATING NEW ONE"
+        }.showAndWait()
+    }
+    else{
+        val okClicked = Client.showGroupCreationDialog()
+
+        if(okClicked){
+          Client.userRef ! ChatClient.CreateGroup(gname,Client.loggedInUser)
+        }
+    }
+
   }
+
+  def disbandGroup(action: ActionEvent): Unit={
+    if(ChatClient.groupCreated==true){
+      Client.userRef ! ChatClient.DisbandGroup
+      ChatClient.groupCreated=false
+    }
+    else{
+        val alert = new Alert(Alert.AlertType.Warning) {
+        initOwner(dialogStage)
+        title = "NO GROUPS CREATED"
+        headerText = "YOU DONT HAVE NOT CREATED A GROUP YET"
+        contentText = "YOU CAN DISBAND YOUR GROUP WHEN YOU HAVE CREATED ONE"
+        }.showAndWait()
+    }
+
+  }
+
+
 
 }

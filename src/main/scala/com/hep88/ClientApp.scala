@@ -13,8 +13,10 @@ import scalafxml.core.{FXMLLoader, NoDependencyResolver}
 import scalafx.Includes._
 import scala.concurrent.Future
 import scala.concurrent.duration._  
+import scalafx.stage.{Modality, Stage}
 
 import com.hep88.model.Account
+import com.hep88.model.SubGroupActor
 
 import javafx.{scene => jfxs}
 
@@ -29,9 +31,15 @@ object Client extends JFXApp {
 
   var registerController: Option[com.hep88.view.RegistryController#Controller] = None
 
+  var groupCreationController : Option[com.hep88.view.GroupCreationDialogController#Controller] = None
+
+  var groupChatController : Option[com.hep88.view.GroupChatController#Controller] = None
+
+  var viewMemberListController : Option[com.hep88.view.ViewMemberListDialogController#Controller] = None
+
   
 
-    //code for akka system initialization
+  //code for akka system initialization
   implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
   val config = ConfigFactory.load()
   val mainSystem = akka.actor.ActorSystem("HelloSystem", MyConfiguration.askForConfig().withFallback(config))
@@ -81,21 +89,75 @@ object Client extends JFXApp {
     mainController = Option(loader.getController[com.hep88.view.MainWindowController#Controller])//object that control the interaction with the user
     mainController.get.chatClientRef = Option(userRef)
     this.roots.setCenter(roots)
+    Client.mainController map (_.updateList(ChatClient.groups.toList.filter(y => ! ChatClient.unreachables.exists (x => x == y.ref.path.address))))
   }
 
 
 
 
-  def showLogIn()={
+  def showLogIn():Unit ={
     val resource = getClass.getResourceAsStream("view/LogInView.fxml")
     val loader = new FXMLLoader(null, NoDependencyResolver)
     loader.load(resource);
     val roots = loader.getRoot[jfxs.layout.AnchorPane]
-    loginController = Option(loader.getController[com.hep88.view.LogInController#Controller])//object that control the interaction with the user
+    loginController = Option(loader.getController[com.hep88.view.LogInController#Controller])
     loginController.get.chatClientRef = Option(userRef)
     this.roots.setCenter(roots)
   }
 
+
+  def showGroupCreationDialog():Boolean ={
+    val resource = getClass.getResourceAsStream("view/GroupCreationDialog.fxml")
+    val loader = new FXMLLoader(null, NoDependencyResolver)
+    loader.load(resource);
+    val roots2 = loader.getRoot[jfxs.Parent]
+    
+    groupCreationController = Option(loader.getController[com.hep88.view.GroupCreationDialogController#Controller])
+    groupCreationController.get.chatClientRef = Option(userRef)
+    
+    val dialog = new Stage() {
+      initModality(Modality.APPLICATION_MODAL)
+      initOwner(stage)
+      scene = new Scene {
+        root = roots2
+      }
+    }
+    groupCreationController.get.dialogStage = dialog
+    //groupCreationController.get.gname = gname
+    dialog.showAndWait()
+    groupCreationController.get.okClicked
+  }
+
+
+  def showMemberListDialog(list: Iterable[User]):Unit ={
+    val resource = getClass.getResourceAsStream("view/MemberListViewDialog.fxml")
+    val loader = new FXMLLoader(null,NoDependencyResolver)
+    loader.load(resource);
+    val roots2 = loader.getRoot[jfxs.Parent]
+    viewMemberListController = Option(loader.getController[com.hep88.view.ViewMemberListDialogController#Controller])
+    val dialog = new Stage() {
+      initModality(Modality.APPLICATION_MODAL)
+      initOwner(stage)
+      scene = new Scene {
+        root = roots2
+      }
+    }
+    viewMemberListController.get.dialogStage=dialog
+    viewMemberListController.get.updateMemberList(list)
+    dialog.showAndWait()
+  }
+
+
+  def showGroupChat():Unit ={
+    val resource = getClass.getResourceAsStream("view/groupView.fxml")
+    val loader = new FXMLLoader(null, NoDependencyResolver)
+    loader.load(resource);
+    val roots = loader.getRoot[jfxs.layout.AnchorPane]
+    groupChatController = Option(loader.getController[com.hep88.view.GroupChatController#Controller])
+    groupChatController.get.chatClientRef = Option(userRef)
+    groupChatController.get.receiveGroupName(ChatClient.groupName)
+    this.roots.setCenter(roots)
+  }
 
 
   showLogIn()

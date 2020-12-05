@@ -53,17 +53,6 @@ class LogInController (
     }.showAndWait()
   }
 
-  /*
-  def handleLogIn(account: Account): Unit = {
-    if (isInputValid) {
-
-      account.userName <== usernameField.text
-      account.password <== passwordField.text
-
-      logInClicked = true
-    }
-  }*/
-
   def nullChecking(x: String) = x == null || x.length == 0
 
   def isInputValid(): Boolean = {
@@ -91,13 +80,13 @@ class LogInController (
   }
     
     def showRegistry(action: ActionEvent) = {
-    val resource = getClass.getResourceAsStream("/com/hep88/view/RegisterView.fxml")
-    val loader = new FXMLLoader(null, NoDependencyResolver)
-    loader.load(resource);
-    val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
-    Client.registerController = Option(loader.getController[com.hep88.view.RegistryController#Controller])
-    Client.registerController.get.chatClientRef = Option(Client.userRef)
-    Client.roots.setCenter(roots2)
+      val resource = getClass.getResourceAsStream("/com/hep88/view/RegisterView.fxml")
+      val loader = new FXMLLoader(null, NoDependencyResolver)
+      loader.load(resource);
+      val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
+      Client.registerController = Option(loader.getController[com.hep88.view.RegistryController#Controller])
+      Client.registerController.get.chatClientRef = Option(Client.userRef)
+      Client.roots.setCenter(roots2)
     }
 
   /*
