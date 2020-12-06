@@ -24,4 +24,4 @@ https://trello.com/b/dXwzfsl3/distributed-systems
 
 ### Run Server With This Command
 run sbt with the folllowing command:
-sbt -Djava.security.policy=no.policy
+sbt "-Djava.security.policy=no.policy"

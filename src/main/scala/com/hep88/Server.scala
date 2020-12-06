@@ -14,19 +14,27 @@ import akka.cluster.typed._
 import com.typesafe.config.ConfigFactory
 import com.hep88.protocol.JsonSerializable
 
-
-
 import com.hep88.util.Database
 import com.hep88.model.Account
 import com.hep88.model.SubGroupActor
 import scala.util.{Failure, Success}
 
-
-
 object ChatServer {
-  //setupDB -> uncomment if server running. 
-  //comment if client running
-  Database.setupDB()
+ 
+  // ------------------------
+
+  // Setting this to true will setup the Database
+  // Set to false if client (Or when testing client)
+
+  val isServerhost = false
+
+
+  // ------------------------
+
+
+  if(isServerhost){
+    Database.setupDB()
+  }
   
   sealed trait Command extends JsonSerializable
   //protocol 
@@ -111,7 +119,7 @@ object ChatServer {
 object Server extends App {
   
   val config = ConfigFactory.load()
-  val mainSystem = akka.actor.ActorSystem("HelloSystem", MyConfiguration.askForConfig().withFallback(config))
+  val mainSystem = akka.actor.ActorSystem("StonkChatSys", MyConfiguration.askForConfig().withFallback(config))
   val typedSystem: ActorSystem[Nothing] = mainSystem.toTyped
   val cluster = Cluster(typedSystem)
   cluster.manager ! Join(cluster.selfMember.address)

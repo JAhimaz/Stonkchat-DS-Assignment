@@ -23,30 +23,37 @@ import javafx.{scene => jfxs}
 
 object Client extends JFXApp {
 
+  // ----------------------------------------
+
+    // Fill Only These ###
+
+    // If You're a Client (Type the Server host's public IP)
+    var publicSeedNodeIP = "115.132.6.17"
+
+    // If You're Server Host or Testing Locally, Set To True
+    var isServerHost = true
+    var publicServerPort = 25520
+
+    var localPort = 2222
+
+  // ----------------------------------------
+
   var loggedInUser : String = null
-
-  var mainController: Option[com.hep88.view.MainWindowController#Controller] = None
-
-  var loginController: Option[com.hep88.view.LogInController#Controller] = None
-
-  var registerController: Option[com.hep88.view.RegistryController#Controller] = None
-
+  var mainController : Option[com.hep88.view.MainWindowController#Controller] = None
+  var loginController : Option[com.hep88.view.LogInController#Controller] = None
+  var registerController : Option[com.hep88.view.RegistryController#Controller] = None
   var groupCreationController : Option[com.hep88.view.GroupCreationDialogController#Controller] = None
-
   var groupChatController : Option[com.hep88.view.GroupChatController#Controller] = None
-
   var viewMemberListController : Option[com.hep88.view.ViewMemberListDialogController#Controller] = None
-
-  
 
   //code for akka system initialization
   implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
   val config = ConfigFactory.load()
-  val mainSystem = akka.actor.ActorSystem("HelloSystem", MyConfiguration.askForConfig().withFallback(config))
+  val mainSystem = akka.actor.ActorSystem("StonkChatSys", MyConfiguration.askForConfig().withFallback(config))
   val greeterMain: ActorSystem[Nothing] = mainSystem.toTyped
 
   val cluster = Cluster(greeterMain)
-  //val greeterMain: ActorSystem[ChatClient.Command] = ActorSystem(ChatClient(), "HelloSystem")
+  //val greeterMain: ActorSystem[ChatClient.Command] = ActorSystem(ChatClient(), "StonkChatSys")
 
   //discover cluster
   val discovery: ServiceDiscovery = Discovery(mainSystem).discovery
@@ -54,22 +61,26 @@ object Client extends JFXApp {
   val userRef = mainSystem.spawn(ChatClient(), "ChatClient")
 
   def joinPublicSeedNode(): Unit = {
-    //targetHost = their PUBLIC IP
-    //targetPort = server port
-    val address = akka.actor.Address("akka", "HelloSystem", "175.143.214.226" , 25520)
+    val address = akka.actor.Address("akka", "StonkChatSys", publicSeedNodeIP , publicServerPort)
     cluster.manager ! JoinSeedNodes(List(address))
   }
 
   def joinLocalSeedNode(): Unit = {
-      val address = akka.actor.Address("akka", "HelloSystem", MyConfiguration.localAddress.get.getHostAddress, 2222)
+      val address = akka.actor.Address("akka", "StonkChatSys", MyConfiguration.localAddress.get.getHostAddress, localPort)
       cluster.manager ! JoinSeedNodes(List(address))
   }
 
-  joinLocalSeedNode()
+  if(isServerHost){
+    joinLocalSeedNode()
+  }else{
+    joinPublicSeedNode()
+  }
+
   userRef ! ChatClient.start
 
-  //scalafx initialization code
-  //user interface file to read the scalaFX
+  //ScalaFX initialization code ----------------------------------------------------------------------------------------------------------
+  //user interface file to read the ScalaFX
+
   val rootResource = getClass.getResourceAsStream("view/RootLayout.fxml")
   val loader = new FXMLLoader(null, NoDependencyResolver)
   loader.load(rootResource);
@@ -79,7 +90,6 @@ object Client extends JFXApp {
       root = roots
     }
   }
-
 
   def showMainChat()={
     val resource = getClass.getResourceAsStream("view/MainWindow.fxml")
@@ -91,9 +101,6 @@ object Client extends JFXApp {
     this.roots.setCenter(roots)
     Client.mainController map (_.updateList(ChatClient.groups.toList.filter(y => ! ChatClient.unreachables.exists (x => x == y.ref.path.address))))
   }
-
-
-
 
   def showLogIn():Unit ={
     val resource = getClass.getResourceAsStream("view/LogInView.fxml")
