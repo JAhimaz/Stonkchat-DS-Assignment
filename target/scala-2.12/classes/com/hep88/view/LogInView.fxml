@@ -39,6 +39,9 @@
             <Font name="Arial" size="12.0" />
          </font>
       </PasswordField>
-      <Label fx:id="errorText" layoutX="288.0" layoutY="266.0" prefHeight="17.0" prefWidth="223.0" text="Login Failed. Account Not Found" textFill="RED" AnchorPane.bottomAnchor="320.0" />
+      <Label fx:id="errorText" layoutX="288.0" layoutY="266.0" prefHeight="17.0" prefWidth="223.0" text="Login Failed. Account Not Found" textFill="RED" AnchorPane.bottomAnchor="320.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
    </children>
 </AnchorPane>

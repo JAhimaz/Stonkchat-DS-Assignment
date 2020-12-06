@@ -1,7 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mD:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\src\main\scala\com\hep88\view\LogInController.scala:44:27: identifier expected but '=' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  def successfulLogin() : = {[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mD:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\src\main\scala\com\hep88\view\LogInController.scala:49:23: identifier expected but '=' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  def failedLogin() : = {[0m
-[0m[[0m[31merror[0m] [0m[0m                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were two deprecation warnings (since 8.0.60-R10); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

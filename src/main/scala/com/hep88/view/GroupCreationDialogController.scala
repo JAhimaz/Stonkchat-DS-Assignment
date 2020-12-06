@@ -14,8 +14,8 @@ import com.hep88.Client
 @sfxml
 class GroupCreationDialogController(
 
-    private val groupNameField : TextField
-    private val errorText : Label
+    private val groupNameField : TextField,
+    private val errorText : Label,
 
 ){
 
