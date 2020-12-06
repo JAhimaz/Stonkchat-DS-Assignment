@@ -50,14 +50,14 @@
                         </Button>
                      </children>
                   </VBox>
-                  <Label fx:id="txtName" alignment="CENTER" layoutX="147.0" layoutY="81.0" text="USERNAME" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="81.0">
-                     <font>
-                        <Font name="Arial" size="28.0" />
-                     </font>
-                  </Label>
                   <Label alignment="CENTER" layoutX="92.0" layoutY="35.0" text="WELCOME BACK" textAlignment="CENTER" textFill="#ac20aa">
                      <font>
                         <Font name="Arial Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtName" alignment="TOP_CENTER" layoutX="29.0" layoutY="81.0" prefHeight="83.0" prefWidth="413.0" text="USERNAME" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="80.0">
+                     <font>
+                        <Font name="Arial" size="28.0" />
                      </font>
                   </Label>
                </children>

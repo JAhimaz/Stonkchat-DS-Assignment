@@ -27,8 +27,8 @@
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
-      <TextField fx:id="passwordField" accessibleRole="PASSWORD_FIELD" layoutX="407.0" layoutY="300.0" prefHeight="40.0" prefWidth="345.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="260.0" />
-      <TextField fx:id="confirmPasswordField" accessibleRole="PASSWORD_FIELD" layoutX="407.0" layoutY="242.0" prefHeight="40.0" prefWidth="345.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="318.0" />
+      <TextField fx:id="passwordField" accessibleRole="PASSWORD_FIELD" layoutX="407.0" layoutY="300.0" prefHeight="40.0" prefWidth="345.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="320.0" />
+      <TextField fx:id="confirmPasswordField" accessibleRole="PASSWORD_FIELD" layoutX="407.0" layoutY="242.0" prefHeight="40.0" prefWidth="345.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="260.0" />
       <Line endX="494.0" layoutX="273.0" layoutY="49.0" startX="-57.0" stroke="#ac20aa" />
       <Button layoutX="37.0" layoutY="527.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="38.0" prefWidth="326.0" style="-fx-background-color: #7b007a; -fx-border-color: #ac20aa; -fx-border-radius: 5px;" text="Cancel" textFill="WHITE" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0">
          <font>
