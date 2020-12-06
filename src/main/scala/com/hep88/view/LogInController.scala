@@ -5,33 +5,38 @@ import javafx.{scene => jfxs}
 import com.hep88.Client
 import com.hep88.ChatClient
 
+import scalafx.Includes._
 import scalafx.event.ActionEvent
-import scalafx.scene.control.{Alert, TextField}
 import scalafx.stage.Stage
 import scalafxml.core.macros.sfxml
 import scalafxml.core.{FXMLLoader, NoDependencyResolver}
 
+import scalafx.scene.control.{Alert, TextField}
+import scalafx.scene.input.MouseEvent
+import scalafx.scene.image.{Image, ImageView, WritableImage}
+
 @sfxml
 class LogInController (
-                        private val usernameField : TextField,
-                        private val passwordField: TextField,
-                      ){
+    private val usernameField : TextField,
+    private val passwordField : TextField,
+    private val loginLogo : ImageView,
+  ){
 
-  var dialogStage: Stage = null
+  var dialogStage : Stage = null
 
-  var chatClientRef: Option[ActorRef[ChatClient.Command]] = None
+  var chatClientRef : Option[ActorRef[ChatClient.Command]] = None
 
   var username = usernameField.text
   var password = passwordField.text
+
+  val logoImage : Image = new Image(getClass().getResourceAsStream("/images/Logo.png"))
+  loginLogo.setImage(logoImage)
 
   def logIn(action: ActionEvent): Unit = {
     if (isInputValid) {
         chatClientRef map (_ ! ChatClient.LogInAttempt(usernameField.text(),passwordField.text()))
     }
   }
-
-
-
 
   def successfulLogin():Unit={
     val alert = new Alert(Alert.AlertType.Information){
@@ -79,15 +84,15 @@ class LogInController (
 
   }
     
-    def showRegistry(action: ActionEvent) = {
-      val resource = getClass.getResourceAsStream("/com/hep88/view/RegisterView.fxml")
-      val loader = new FXMLLoader(null, NoDependencyResolver)
-      loader.load(resource);
-      val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
-      Client.registerController = Option(loader.getController[com.hep88.view.RegistryController#Controller])
-      Client.registerController.get.chatClientRef = Option(Client.userRef)
-      Client.roots.setCenter(roots2)
-    }
+  def showRegistry(event : MouseEvent) = {
+    val resource = getClass.getResourceAsStream("/com/hep88/view/RegisterView.fxml")
+    val loader = new FXMLLoader(null, NoDependencyResolver)
+    loader.load(resource);
+    val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
+    Client.registerController = Option(loader.getController[com.hep88.view.RegistryController#Controller])
+    Client.registerController.get.chatClientRef = Option(Client.userRef)
+    Client.roots.setCenter(roots2)
+  }
 
   /*
   def close(action: ActionEvent): Unit = {

@@ -1,0 +1,4 @@
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: transparent;
+   -fx-cursor: default;
+}
