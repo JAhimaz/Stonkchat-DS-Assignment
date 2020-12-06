@@ -146,8 +146,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Group.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\images[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\images[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\images\Logo.png[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\images\Logo.png[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\Account$.class[0m
@@ -232,20 +230,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupChatController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupCreationDialog.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupCreationDialog.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupCreationDialogController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupCreationDialogController$Controller$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupCreationDialogController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupCreationDialogController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupCreationDialogController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupCreationDialogController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\groupView.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\groupView.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController$Controller$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController$Controller$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController$Controller$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController$Controller$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController.class[0m
@@ -280,8 +270,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RegistryController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\RootLayout.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RootLayout.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\stylesheet.css[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\stylesheet.css[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\ViewMemberListDialogController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\ViewMemberListDialogController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\ViewMemberListDialogController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\ViewMemberListDialogController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	images[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\images[0m
+[0m[[0m[0mdebug[0m] [0m[0m	images\Logo.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\images\Logo.png[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

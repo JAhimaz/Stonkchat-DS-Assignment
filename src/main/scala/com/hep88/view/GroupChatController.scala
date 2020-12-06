@@ -12,11 +12,12 @@ import scalafx.collections.ObservableBuffer
 import com.hep88.Client
 import com.hep88.ChatClient
 import com.hep88.model.SubGroupActor
+
 @sfxml
 class GroupChatController(
-    private val groupName:TextField,
+    private val groupName : Label,
     private val listMsg: ListView[String],
-    private val textMsg : TextField
+    private val textMsg : TextField,
 ){
 
     //var groupChatOwner:Option[Address] = None

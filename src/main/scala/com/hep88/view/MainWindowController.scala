@@ -2,9 +2,9 @@ package com.hep88.view
 import akka.actor.typed.ActorRef
 import scalafxml.core.macros.sfxml
 import scalafx.event.ActionEvent
-import scalafx.scene.control.{Label, ListView, TextField,Alert}
 import scalafx.stage.Stage
 
+import scalafx.scene.control.{Label, ListView, TextField,Alert}
 
 
 import com.hep88.ChatClient
@@ -13,11 +13,12 @@ import com.hep88.User
 import com.hep88.Client
 import scalafx.collections.ObservableBuffer
 import scalafx.Includes._
+
 @sfxml
 class MainWindowController(
-  private val txtName: TextField,
-  private val lblStatus: Label,
-  private val listGroup: ListView[Group]
+    private val txtName: Label,
+    private val lblStatus: Label,
+    private val listGroup: ListView[Group]
   ) {
 
 

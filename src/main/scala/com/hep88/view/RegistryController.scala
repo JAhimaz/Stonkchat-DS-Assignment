@@ -4,7 +4,7 @@ package com.hep88.view
 import akka.actor.typed.ActorRef
 import com.hep88.model.Account
 import scalafx.event.ActionEvent
-import scalafx.scene.control.{Alert, TextField}
+import scalafx.scene.control.{Alert, TextField, PasswordField}
 import scalafx.stage.Stage
 import scalafxml.core.macros.sfxml
 
@@ -15,8 +15,8 @@ import com.hep88.ChatClient
 @sfxml
 class RegistryController(
                         private val usernameField : TextField,
-                        private val passwordField: TextField,
-                        private val confirmPasswordField: TextField
+                        private val passwordField: PasswordField,
+                        private val confirmPasswordField: PasswordField
                         ) {
 
     var dialogStage: Stage = null

@@ -13,8 +13,13 @@ import com.hep88.Client
 
 @sfxml
 class GroupCreationDialogController(
-    private val groupNameField:TextField
+
+    private val groupNameField : TextField,
+    private val errorText : Label,
+
 ){
+
+    errorText.text = ""
 
     private var _gname : String = ""
     var dialogStage : Stage = null
@@ -28,7 +33,7 @@ class GroupCreationDialogController(
     }
 
     def handleOk(action: ActionEvent){
-        var errorMessage=""
+        var errorMessage = ""
 
         if(nullChecking(groupNameField.text.value)){
             errorMessage += "Group name cant be empty!"
@@ -40,13 +45,7 @@ class GroupCreationDialogController(
             dialogStage.close()
         }
         else{
-            // Show the error message.
-            val alert = new Alert(Alert.AlertType.Error){
-            initOwner(dialogStage)
-            title = "Invalid Fields"
-            headerText = "Please correct invalid fields"
-            contentText = errorMessage
-            }.showAndWait()
+            errorText.text = errorMessage
         }
     }
 
