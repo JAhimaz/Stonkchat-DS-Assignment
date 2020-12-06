@@ -17,10 +17,12 @@ import scalafx.scene.image.{Image, ImageView, WritableImage}
 
 @sfxml
 class LogInController (
+  
     private val usernameField : TextField,
     private val passwordField : TextField,
     private val loginLogo : ImageView,
     private val errorText : Label,
+
   ){
 
   var dialogStage : Stage = null
@@ -80,10 +82,5 @@ class LogInController (
     Client.registerController.get.chatClientRef = Option(Client.userRef)
     Client.roots.setCenter(roots2)
   }
-
-  /*
-  def close(action: ActionEvent): Unit = {
-    MainApp.close()
-  }*/
 
 }
