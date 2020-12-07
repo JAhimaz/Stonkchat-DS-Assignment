@@ -5,7 +5,9 @@ import scalafx.event.ActionEvent
 import scalafx.stage.Stage
 
 import scalafx.scene.control.{Label, ListView, TextField,Alert}
+import scalafx.scene.layout.{Pane}
 
+import scalafx.scene.input.MouseEvent
 
 import com.hep88.ChatClient
 import com.hep88.Group
@@ -18,7 +20,8 @@ import scalafx.Includes._
 class MainWindowController(
     private val txtName: Label,
     private val lblStatus: Label,
-    private val listGroup: ListView[Group]
+    private val listGroup: ListView[Group],
+    private val guidePane : Pane
   ) {
 
 
@@ -28,7 +31,15 @@ class MainWindowController(
 
   var dialogStage : Stage  = null
 
-  var gname:String=""
+  var gname:String = ""
+
+  def openInfo(action : MouseEvent) : Unit = {
+    guidePane.visible = true
+  }
+
+  def closeInfo(action : MouseEvent) : Unit = {
+    guidePane.visible = false
+  }
 
 
   txtName.text() = Client.loggedInUser
