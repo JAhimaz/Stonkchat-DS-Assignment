@@ -65,5 +65,10 @@
             <Font name="Arial" size="12.0" />
          </font>
       </PasswordField>
+      <Label alignment="CENTER_RIGHT" layoutX="407.0" layoutY="354.0" prefHeight="17.0" prefWidth="345.0" text="By Clicking &quot;Create Account&quot;, You Agree to The Policy Privacy." textAlignment="RIGHT" textFill="#5b5b5b">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
