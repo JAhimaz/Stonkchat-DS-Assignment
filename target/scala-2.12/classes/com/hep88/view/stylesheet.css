@@ -2,3 +2,14 @@
    -fx-background-color: transparent;
    -fx-cursor: default;
 }
+
+.button{
+   -fx-background-color: #7b007a; 
+   -fx-border-color: #ac20aa; 
+   -fx-border-radius: 5px;
+}
+
+.button:hover {
+   -fx-background-color: #b809b7;
+}
+
