@@ -32,7 +32,7 @@ object Client extends JFXApp {
     var publicSeedNodeIP = "115.132.6.17"
 
     // If You're Server Host or Testing Locally, Set To True
-    var isServerHost = true
+    var isServerHost = false
     var publicServerPort = 25520
 
     var localPort = 2222

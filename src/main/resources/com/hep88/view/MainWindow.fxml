@@ -24,7 +24,7 @@
                      <children>
                         <HBox prefHeight="45.0" prefWidth="452.0">
                            <children>
-                              <Button mnemonicParsing="false" onAction="#handleJoinGroup" prefHeight="40.0" prefWidth="238.0" style="-fx-background-color: #7b007a; -fx-border-radius: 5px;" text="Join Group" textFill="WHITE">
+                              <Button mnemonicParsing="false" onAction="#handleJoinGroup" prefHeight="40.0" prefWidth="238.0" text="Join Group" textFill="WHITE">
                                  <font>
                                     <Font name="Arial" size="12.0" />
                                  </font>
@@ -32,7 +32,7 @@
                                     <Insets left="10.0" right="5.0" />
                                  </HBox.margin>
                               </Button>
-                              <Button mnemonicParsing="false" onAction="#disbandGroup" prefHeight="40.0" prefWidth="221.0" style="-fx-background-color: #7b007a; -fx-border-radius: 5px;" text="Disband Group" textFill="WHITE">
+                              <Button mnemonicParsing="false" onAction="#disbandGroup" prefHeight="40.0" prefWidth="221.0" text="Disband Group" textFill="WHITE">
                                  <HBox.margin>
                                     <Insets left="5.0" right="10.0" />
                                  </HBox.margin>
@@ -42,7 +42,7 @@
                               </Button>
                            </children>
                         </HBox>
-                        <Button mnemonicParsing="false" onAction="#createGroup" prefHeight="40.0" prefWidth="452.0" style="-fx-background-color: #7b007a; -fx-border-radius: 5px;" text="Create Group" textFill="WHITE" VBox.vgrow="ALWAYS">
+                        <Button mnemonicParsing="false" onAction="#createGroup" prefHeight="40.0" prefWidth="452.0" text="Create Group" textFill="WHITE" VBox.vgrow="ALWAYS">
                            <font>
                               <Font name="Arial" size="12.0" />
                            </font>
@@ -62,7 +62,7 @@
                         <Font name="Arial" size="28.0" />
                      </font>
                   </Label>
-                  <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#logOut" prefHeight="40.0" prefWidth="96.0" style="-fx-background-color: #7b007a; -fx-border-radius: 5px;" text="Logout" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+                  <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#logOut" prefHeight="40.0" prefWidth="96.0" text="Logout" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
                      <font>
                         <Font name="Arial" size="12.0" />
                      </font>

@@ -17,7 +17,7 @@
          <font>
             <Font name="Arial" size="12.0" />
          </font></TextField>
-      <Button layoutX="288.0" layoutY="370.0" mnemonicParsing="false" onAction="#logIn" prefHeight="40.0" prefWidth="223.0" style="-fx-background-color: #7b007a; -fx-border-color: #ac20aa; -fx-border-radius: 5px;" text="Login" textFill="WHITE" translateY="30.0" AnchorPane.bottomAnchor="180.0">
+      <Button layoutX="288.0" layoutY="370.0" mnemonicParsing="false" onAction="#logIn" prefHeight="40.0" prefWidth="223.0" text="Login" textFill="WHITE" translateY="30.0" AnchorPane.bottomAnchor="180.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font></Button>
