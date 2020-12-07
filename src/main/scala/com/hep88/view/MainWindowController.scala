@@ -86,6 +86,12 @@ class MainWindowController(
 
   }
 
+  def logOut(action: ActionEvent):Unit={
+    Client.userRef ! ChatClient.LogOutAttempt(Client.loggedInUser)
+  }
+
+
+
   def disbandGroup(action: ActionEvent): Unit={
     if(ChatClient.groupCreated==true){
       Client.userRef ! ChatClient.DisbandGroup

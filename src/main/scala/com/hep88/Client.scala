@@ -31,6 +31,7 @@ object ChatClient {
     final case class SendMessageL(target: ActorRef[SubGroupActor.Command], content: String) extends Command
     case class LogInAttempt(username : String,password : String) extends Command
     case class RegisterAttempt(username: String,password : String) extends Command
+    case class LogOutAttempt(username: String) extends Command
 
    
     //chat protocol 
@@ -44,6 +45,7 @@ object ChatClient {
 
     //chat protocol register
     final case class RegisterResult(validity: Boolean) extends Command
+    final case object LogOutResult extends Command
 
     //group chat protocol
     final case class CreateGroup(gname : String,name : String) extends Command
@@ -160,6 +162,18 @@ object ChatClient {
 
                 case LogInAttempt(username,password)=>
                     remoteOpt.map (_ ! ChatServer.LogIn(username,password,context.self))
+                    Behaviors.same
+                    
+
+                case LogOutAttempt(username)=>
+                    remoteOpt.map (_ ! ChatServer.LogOut(username,context.self))
+                    Behaviors.same
+
+
+                case LogOutResult =>
+                    Platform.runLater{
+                        Client.showLogIn
+                    }
                     Behaviors.same
 
                 case ChatClient.LogInResult(result,x)=>
