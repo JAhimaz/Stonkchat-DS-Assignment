@@ -5,24 +5,37 @@ import javafx.{scene => jfxs}
 import com.hep88.Client
 import com.hep88.ChatClient
 
+import scalafx.Includes._
 import scalafx.event.ActionEvent
-import scalafx.scene.control.{Alert, TextField}
 import scalafx.stage.Stage
 import scalafxml.core.macros.sfxml
 import scalafxml.core.{FXMLLoader, NoDependencyResolver}
 
+import scalafx.scene.control.{Alert, TextField, Label}
+import scalafx.scene.input.MouseEvent
+import scalafx.scene.image.{Image, ImageView, WritableImage}
+
 @sfxml
 class LogInController (
-                        private val usernameField : TextField,
-                        private val passwordField: TextField,
-                      ){
+  
+    private val usernameField : TextField,
+    private val passwordField : TextField,
+    private val loginLogo : ImageView,
+    private val errorText : Label,
 
-  var dialogStage: Stage = null
+  ){
 
-  var chatClientRef: Option[ActorRef[ChatClient.Command]] = None
+  var dialogStage : Stage = null
+
+  var chatClientRef : Option[ActorRef[ChatClient.Command]] = None
 
   var username = usernameField.text
   var password = passwordField.text
+
+  val logoImage : Image = new Image(getClass().getResourceAsStream("/images/Logo.png"))
+  loginLogo.setImage(logoImage)
+
+  errorText.text = ""
 
   def logIn(action: ActionEvent): Unit = {
     if (isInputValid) {
@@ -30,27 +43,13 @@ class LogInController (
     }
   }
 
-
-
-
-  def successfulLogin():Unit={
-    val alert = new Alert(Alert.AlertType.Information){
-    initOwner(dialogStage)
-    title = "Welcome"
-    headerText = "Greetings"
-    contentText= "Welcome back."
-    }.showAndWait()
+  def successfulLogin() : Unit = {
     Client.loggedInUser = usernameField.text()
     Client.showMainChat()
   }
 
-  def failedLogin():Unit={
-    val alert = new Alert(Alert.AlertType.Warning) {
-    initOwner(dialogStage)
-    title = "Failed to Log In"
-    headerText = "Data Invalid"
-    contentText = "Please insert the correct email and password."
-    }.showAndWait()
+  def failedLogin() : Unit = {
+    errorText.text = "Login Failed. Account Not Found"
   }
 
   def nullChecking(x: String) = x == null || x.length == 0
@@ -58,40 +57,30 @@ class LogInController (
   def isInputValid(): Boolean = {
     var errorMessage = ""
     if (nullChecking(usernameField.text.value)) {
-      errorMessage += "Username Field is empty!!\n"
+      errorMessage += "Empty Username. "
     }
     if (nullChecking(passwordField.text.value.toString)) {
-      errorMessage += "Password Field is empty!\n"
+      errorMessage += "Empty Password. "
     }
 
     if (errorMessage.length() == 0) {
       return true
     }
     else {
-      val alert = new Alert(Alert.AlertType.Error) {
-        initOwner(dialogStage)
-        title = "Invalid Fields!"
-        headerText = "Please correct invalid fields"
-        contentText = errorMessage
-      }.showAndWait()
+      errorText.text = errorMessage
       return false
     }
 
   }
     
-    def showRegistry(action: ActionEvent) = {
-      val resource = getClass.getResourceAsStream("/com/hep88/view/RegisterView.fxml")
-      val loader = new FXMLLoader(null, NoDependencyResolver)
-      loader.load(resource);
-      val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
-      Client.registerController = Option(loader.getController[com.hep88.view.RegistryController#Controller])
-      Client.registerController.get.chatClientRef = Option(Client.userRef)
-      Client.roots.setCenter(roots2)
-    }
-
-  /*
-  def close(action: ActionEvent): Unit = {
-    MainApp.close()
-  }*/
+  def showRegistry(event : MouseEvent) = {
+    val resource = getClass.getResourceAsStream("/com/hep88/view/RegisterView.fxml")
+    val loader = new FXMLLoader(null, NoDependencyResolver)
+    loader.load(resource);
+    val roots2 = loader.getRoot[jfxs.layout.AnchorPane]
+    Client.registerController = Option(loader.getController[com.hep88.view.RegistryController#Controller])
+    Client.registerController.get.chatClientRef = Option(Client.userRef)
+    Client.roots.setCenter(roots2)
+  }
 
 }

@@ -1,287 +1,291 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\stonkchat-ds-assignment_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\stonkchat_2.12-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\application.conf[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$$anonfun$$nestedInanonfun$apply$1$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$$anonfun$$nestedInanonfun$apply$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$$anonfun$$nestedInanonfun$apply$1$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$Command.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$Command.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$CreateGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$CreateGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$CreateGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$CreateGroup.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$CreateGroup.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$CreateGroup.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$DisbandGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$DisbandGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$DisbandGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$DisplayMemberList$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$DisplayMemberList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$DisplayMemberList$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$DisplayMemberList.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$DisplayMemberList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$DisplayMemberList.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$FindTheServer$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$FindTheServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$FindTheServer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$GroupList$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$GroupList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$GroupList$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$GroupList.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$GroupList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$GroupList.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$GroupOwnerLeft$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$GroupOwnerLeft$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$GroupOwnerLeft$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$Joined$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$Joined$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$Joined$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$Joined.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$Joined.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$Joined.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$JoinGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$JoinGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$JoinGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$JoinGroup.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$JoinGroup.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$JoinGroup.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LeaveGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$LeaveGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LeaveGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LeaveGroup.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$LeaveGroup.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LeaveGroup.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$ListingResponse$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$ListingResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$ListingResponse$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$ListingResponse.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$ListingResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$ListingResponse.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LogInAttempt$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$LogInAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LogInAttempt$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LogInAttempt.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$LogInAttempt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LogInAttempt.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LogInResult$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$LogInResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LogInResult$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LogInResult.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$LogInResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LogInResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LogOutAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LogOutAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LogOutAttempt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LogOutAttempt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$LogOutResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$LogOutResult$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$MemberList$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$MemberList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$MemberList$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$MemberList.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$MemberList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$MemberList.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$Message$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$Message$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$Message$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$Message.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$Message.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$Message.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$ReachabilityChange$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$ReachabilityChange$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$ReachabilityChange$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$ReachabilityChange.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$ReachabilityChange.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$ReachabilityChange.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$RegisterAttempt$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$RegisterAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$RegisterAttempt$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$RegisterAttempt.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$RegisterAttempt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$RegisterAttempt.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$RegisterResult$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$RegisterResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$RegisterResult$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$RegisterResult.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$RegisterResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$RegisterResult.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$SendMessageL$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$SendMessageL$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$SendMessageL$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$SendMessageL.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$SendMessageL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$SendMessageL.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$start$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$start$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$start$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$StartJoin$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$StartJoin$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$StartJoin$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient$StartJoin.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient$StartJoin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient$StartJoin.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatClient.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatClient.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$Command.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$Command.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$GroupCreation$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$GroupCreation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$GroupCreation$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$GroupCreation.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$GroupCreation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$GroupCreation.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$GroupLeave$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$GroupLeave$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$GroupLeave$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$GroupLeave.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$GroupLeave.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$GroupLeave.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$JoinChat$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$JoinChat$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$JoinChat$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$JoinChat.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$JoinChat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$JoinChat.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$Leave$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$Leave$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$Leave$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$Leave.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$Leave.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$Leave.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$LogIn$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$LogIn$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$LogIn$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$LogIn.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$LogIn.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$LogIn.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$LogOut$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$LogOut$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$LogOut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$LogOut.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$RegisterUser$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$RegisterUser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$RegisterUser$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer$RegisterUser.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer$RegisterUser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer$RegisterUser.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\ChatServer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\ChatServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\ChatServer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client$$anon$1$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client$$anon$1$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client$$anon$3$$anon$4.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client$$anon$3$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client$$anon$5$$anon$6.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client$$anon$5$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client$$anon$5$$anon$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client$$anon$5.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client$$anon$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Client.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Client.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Client.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Cling$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Cling$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Cling$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Cling$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Cling$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Cling$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Cling.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Cling.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Cling.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Group$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Group$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Group$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Group.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Group.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\images[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\images[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\images\Logo.png[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\images\Logo.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Group.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\Account$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\Account$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\Account$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\Account.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\Account.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$$anonfun$$nestedInanonfun$apply$1$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$$anonfun$$nestedInanonfun$apply$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$$anonfun$$nestedInanonfun$apply$1$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$CloseGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$CloseGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$CloseGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$CloseGroup.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$CloseGroup.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$CloseGroup.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$Command.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Command.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$DisplayMembers$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$DisplayMembers$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$DisplayMembers$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$DisplayMembers.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$DisplayMembers.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$DisplayMembers.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$GroupMessage$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$GroupMessage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$GroupMessage$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$GroupMessage.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$GroupMessage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$GroupMessage.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$Initializer$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Initializer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Initializer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$Initializer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Initializer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Initializer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$JoinChat$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$JoinChat$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$JoinChat$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$JoinChat.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$JoinChat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$JoinChat.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$Leave$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Leave$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Leave$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor$Leave.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Leave.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor$Leave.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\model\SubGroupActor.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\model\SubGroupActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\model\SubGroupActor.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\MyConfiguration$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\MyConfiguration$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\MyConfiguration$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\MyConfiguration.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\MyConfiguration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\MyConfiguration.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\protocol[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\protocol[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\protocol[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\protocol\JsonSerializable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\protocol\JsonSerializable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\protocol\JsonSerializable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Server$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Server$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Server$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Server$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Server$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Server.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Server.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Upnp$$anonfun$$nestedInanonfun$apply$1$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Upnp$$anonfun$$nestedInanonfun$apply$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Upnp$$anonfun$$nestedInanonfun$apply$1$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Upnp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Upnp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Upnp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Upnp$AddPortMapping$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Upnp$AddPortMapping$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Upnp$AddPortMapping$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Upnp$AddPortMapping.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Upnp$AddPortMapping.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Upnp$AddPortMapping.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Upnp$Command.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Upnp$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Upnp$Command.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\Upnp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\Upnp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\Upnp.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\User$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\User$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\User$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\User.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\User.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\util[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\util[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\util[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\util\Database$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\util\Database$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\util\Database$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\util\Database.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\util\Database.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\util\Database.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupChatController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupChatController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\GroupChatController$Controller$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupChatController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupChatController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\GroupChatController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupChatController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupChatController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\GroupChatController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupCreationDialog.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupCreationDialog.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupCreationDialogController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupCreationDialogController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\GroupCreationDialog.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupCreationDialogController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupCreationDialogController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\GroupCreationDialogController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\GroupCreationDialogController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\GroupCreationDialogController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\GroupCreationDialogController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\groupView.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\groupView.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController$Controller$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController$Controller$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController$Controller$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController$Controller$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\groupView.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\LogInController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\LogInController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\LogInView.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\LogInView.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\LogInView.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\MainWindow.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\MainWindow.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\MainWindow.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\MainWindowController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\MainWindowController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\MainWindowController$Controller$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\MainWindowController$Controller$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\MainWindowController$Controller$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\MainWindowController$Controller$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\MainWindowController$Controller$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\MainWindowController$Controller$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\MainWindowController$Controller$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\MainWindowController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\MainWindowController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\MainWindowController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\MainWindowController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\MainWindowController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\MainWindowController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\MemberListViewDialog.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\MemberListViewDialog.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\MemberListViewDialog.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\RegisterView.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RegisterView.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\RegisterView.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\RegistryController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RegistryController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\RegistryController$Controller$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\RegistryController$Controller$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RegistryController$Controller$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\RegistryController$Controller$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\RegistryController$Controller$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RegistryController$Controller$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\RegistryController$Controller$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\RegistryController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RegistryController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\RegistryController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\RegistryController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RegistryController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\RegistryController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\RootLayout.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\RootLayout.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\RootLayout.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\stylesheet.css[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\stylesheet.css[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\ViewMemberListDialogController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\ViewMemberListDialogController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\ViewMemberListDialogController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\hep88\view\ViewMemberListDialogController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\hep88\view\ViewMemberListDialogController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\com\hep88\view\ViewMemberListDialogController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	images[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\images[0m
+[0m[[0m[0mdebug[0m] [0m[0m	images\Logo.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\scalaProjects\STONKCHAT\target\scala-2.12\classes\images\Logo.png[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

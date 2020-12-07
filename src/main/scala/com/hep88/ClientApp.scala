@@ -9,11 +9,12 @@ import com.typesafe.config.ConfigFactory
 import scalafx.application.JFXApp
 import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.Scene
+import scalafx.scene.image.Image
 import scalafxml.core.{FXMLLoader, NoDependencyResolver}
 import scalafx.Includes._
 import scala.concurrent.Future
 import scala.concurrent.duration._  
-import scalafx.stage.{Modality, Stage}
+import scalafx.stage.{Modality, Stage, StageStyle}
 
 import com.hep88.model.Account
 import com.hep88.model.SubGroupActor
@@ -81,15 +82,23 @@ object Client extends JFXApp {
   //ScalaFX initialization code ----------------------------------------------------------------------------------------------------------
   //user interface file to read the ScalaFX
 
+  val icon : Image = new Image(getClass().getResourceAsStream("/images/Logo.png"))
+
   val rootResource = getClass.getResourceAsStream("view/RootLayout.fxml")
   val loader = new FXMLLoader(null, NoDependencyResolver)
   loader.load(rootResource);
   val roots = loader.getRoot[jfxs.layout.BorderPane]
+  val cssResource = getClass.getResource("view/stylesheet.css")
+  roots.stylesheets = List(cssResource.toExternalForm)
   stage = new PrimaryStage() {
+    title = "StonkChat | Chatting Reinvented"
+    resizable = false
     scene = new Scene(){
       root = roots
     }
   }
+
+  stage.getIcons.add(icon)
 
   def showMainChat()={
     val resource = getClass.getResourceAsStream("view/MainWindow.fxml")
@@ -166,9 +175,7 @@ object Client extends JFXApp {
     this.roots.setCenter(roots)
   }
 
-
   showLogIn()
-
 
   stage.onCloseRequest = handle( {
     mainSystem.terminate

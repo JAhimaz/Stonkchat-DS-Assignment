@@ -2,16 +2,46 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hep88.view.LogInController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #201f1f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hep88.view.LogInController">
    <children>
-      <TextField fx:id="usernameField" layoutX="226.0" layoutY="175.0" />
-      <TextField fx:id="passwordField" accessibleRole="PASSWORD_FIELD" layoutX="226.0" layoutY="241.0" />
-      <Button layoutX="316.0" layoutY="321.0" mnemonicParsing="false" onAction="#logIn" text="Login" />
-      <Label layoutX="150.0" layoutY="179.0" text="Username:" />
-      <Label layoutX="152.0" layoutY="245.0" text="Password:" />
-      <Button layoutX="206.0" layoutY="321.0" mnemonicParsing="false" onAction="#showRegistry" text="Register" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="580.0" layoutX="14.0" layoutY="14.0" stroke="#393939" strokeType="INSIDE" width="780.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <TextField fx:id="usernameField" layoutX="288.0" layoutY="269.0" prefHeight="40.0" prefWidth="223.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" translateY="30.0" AnchorPane.bottomAnchor="300.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></TextField>
+      <Button layoutX="288.0" layoutY="370.0" mnemonicParsing="false" onAction="#logIn" prefHeight="40.0" prefWidth="223.0" style="-fx-background-color: #7b007a; -fx-border-color: #ac20aa; -fx-border-radius: 5px;" text="Login" textFill="WHITE" translateY="30.0" AnchorPane.bottomAnchor="180.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+      <Text fill="WHITE" layoutX="309.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No Account? " textAlignment="RIGHT" translateY="30.0" wrappingWidth="103.361328125" AnchorPane.bottomAnchor="140.0" />
+      <Text fill="#ac20aa" layoutX="386.0" layoutY="456.0" onMouseClicked="#showRegistry" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" textAlignment="CENTER" translateY="30.0" wrappingWidth="103.361328125" AnchorPane.bottomAnchor="140.0" />
+      <Text fill="#ac20aa" layoutX="271.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STONK" visible="false">
+         <font>
+            <Font name="Arial Bold" size="41.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="415.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHAT" visible="false">
+         <font>
+            <Font name="Arial Bold" size="41.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="loginLogo" fitHeight="104.0" fitWidth="393.0" layoutX="203.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true" />
+      <PasswordField fx:id="passwordField" layoutX="288.0" layoutY="321.0" prefHeight="40.0" prefWidth="223.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" translateY="30.0" AnchorPane.bottomAnchor="240.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="errorText" layoutX="288.0" layoutY="266.0" prefHeight="17.0" prefWidth="223.0" text="Login Failed. Account Not Found" textFill="RED" AnchorPane.bottomAnchor="320.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Label>
    </children>
 </AnchorPane>

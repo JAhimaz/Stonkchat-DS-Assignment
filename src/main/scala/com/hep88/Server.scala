@@ -42,6 +42,7 @@ object ChatServer {
   case class Leave(name: String, from: ActorRef[ChatClient.Command]) extends Command
   //database protocol
   case class LogIn(username: String,password: String, from: ActorRef[ChatClient.Command]) extends Command
+  case class LogOut(username: String, from: ActorRef[ChatClient.Command]) extends Command
   case class RegisterUser(username: String,password: String,from: ActorRef[ChatClient.Command]) extends Command
   
   //group creation protocol
@@ -89,6 +90,11 @@ object ChatServer {
             }
             
             from ! ChatClient.LogInResult(account.isVerify,groups.toList)
+            Behaviors.same
+
+        case LogOut(username,from)=>
+            members -= User(username,from)
+            from ! ChatClient.LogOutResult
             Behaviors.same
 
         case RegisterUser(username,password,from)=>

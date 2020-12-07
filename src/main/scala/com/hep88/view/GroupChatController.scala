@@ -12,11 +12,12 @@ import scalafx.collections.ObservableBuffer
 import com.hep88.Client
 import com.hep88.ChatClient
 import com.hep88.model.SubGroupActor
+
 @sfxml
 class GroupChatController(
-    private val groupName:TextField,
+    private val groupName : Label,
     private val listMsg: ListView[String],
-    private val textMsg : TextField
+    private val textMsg : TextField,
 ){
 
     //var groupChatOwner:Option[Address] = None
@@ -39,8 +40,6 @@ class GroupChatController(
     def showMemberList(action:ActionEvent):Unit={
         groupRef.get ! SubGroupActor.DisplayMembers(chatClientRef.get)
     }
-    
-
 
     def backBut(action: ActionEvent):Unit={
         Client.showMainChat()
@@ -56,12 +55,12 @@ class GroupChatController(
     }
 
 
-    def ownerLeft():Unit={
+    def ownerLeft() : Unit = {
         val alert = new Alert(Alert.AlertType.Warning) {
-        initOwner(dialogStage)
-        title = "SOMETHING WENT WRONG"
-        headerText = "GROUP OWNER OR SERVER IS DOWN"
-        contentText = "Please choose or create another group"
+            initOwner(dialogStage)
+            title = "SOMETHING WENT WRONG"
+            headerText = "GROUP OWNER OR SERVER IS DOWN"
+            contentText = "Please choose or create another group"
         }.showAndWait()
         ChatClient.groupRefOpt=None
         ChatClient.groupOwnerAddress=None
