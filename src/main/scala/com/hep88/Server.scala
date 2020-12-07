@@ -72,8 +72,6 @@ object ChatServer {
 
   }
 
-
-
   def apply(): Behavior[ChatServer.Command] = Behaviors.setup { context =>
 
     context.system.receptionist ! Receptionist.Register(ServerKey, context.self)
