@@ -32,7 +32,7 @@ object Client extends JFXApp {
     var publicSeedNodeIP = "115.132.6.17"
 
     // If You're Server Host or Testing Locally, Set To True
-    var isServerHost = false
+    var isServerHost = true
     var publicServerPort = 25520
 
     var localPort = 2222
@@ -130,7 +130,7 @@ object Client extends JFXApp {
     
     groupCreationController = Option(loader.getController[com.hep88.view.GroupCreationDialogController#Controller])
     groupCreationController.get.chatClientRef = Option(userRef)
-    
+    roots2.stylesheets = List(cssResource.toExternalForm)
     val dialog = new Stage() {
       initModality(Modality.APPLICATION_MODAL)
       initOwner(stage)

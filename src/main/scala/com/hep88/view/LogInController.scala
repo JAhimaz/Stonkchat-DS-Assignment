@@ -48,8 +48,14 @@ class LogInController (
     Client.showMainChat()
   }
 
-  def failedLogin() : Unit = {
-    errorText.text = "Login Failed. Account Not Found"
+  def failedLogin(errorCode : Int) : Unit = {
+    if(errorCode == 1){
+      errorText.text = "Login Failed. Account Not Found"
+    }
+
+    if(errorCode == 2){
+      errorText.text = "Account Already Logged In"
+    }
   }
 
   def nullChecking(x: String) = x == null || x.length == 0

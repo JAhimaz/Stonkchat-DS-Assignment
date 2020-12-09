@@ -1,10 +1,12 @@
 package com.hep88.view
 
+import java.util.regex.Pattern;
 
 import akka.actor.typed.ActorRef
 import com.hep88.model.Account
 import scalafx.event.ActionEvent
 import scalafx.scene.control.{Alert, TextField, PasswordField}
+import scalafx.scene.text.Text
 import scalafx.stage.Stage
 import scalafxml.core.macros.sfxml
 
@@ -16,13 +18,14 @@ import com.hep88.ChatClient
 class RegistryController(
                         private val usernameField : TextField,
                         private val passwordField: PasswordField,
-                        private val confirmPasswordField: PasswordField
+                        private val confirmPasswordField: PasswordField,
+                        private val errorText: Text
                         ) {
 
     var dialogStage: Stage = null
     var chatClientRef: Option[ActorRef[ChatClient.Command]] = None
 
-
+    errorText.text = ""
 
     def handleSignUp(action:ActionEvent): Unit= {
         if (isInputValid) {
@@ -56,13 +59,19 @@ class RegistryController(
 
   def nullChecking(x: String) = x == null || x.length == 0
 
+  def containsNoSpecialChars(string: String) = string.matches("^[a-zA-Z\\d-_]*$")
+
   def isInputValid(): Boolean = {
+
     var errorMessage = ""
 
-    if (nullChecking(usernameField.text.value)) {
-      errorMessage += "Username field is empty!!\n"
+    if(!containsNoSpecialChars(usernameField.text.value)){
+      errorMessage += "Username can only be [A-Z ... 0-9]!\n"
     }
- 
+
+    if (nullChecking(usernameField.text.value)) {
+      errorMessage += "Username field is empty!\n"
+    }
     if (nullChecking(passwordField.text.value)) {
       errorMessage += "Password field is empty!\n"
     }
@@ -72,16 +81,15 @@ class RegistryController(
     if(passwordField.text.value!= confirmPasswordField.text.value){
       errorMessage += "Passwords doesn't match!"
     }
+
+    //DBXSS Prevention
+
     if (errorMessage.length() == 0) {
       return true
     }
+
     else {
-      val alert = new Alert(Alert.AlertType.Error) {
-        initOwner(dialogStage)
-        title = "Invalid Fields!"
-        headerText = "Please correct invalid fields"
-        contentText = errorMessage
-      }.showAndWait()
+      errorText.text = errorMessage
       return false
     }
   }

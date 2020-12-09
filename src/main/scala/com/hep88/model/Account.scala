@@ -82,15 +82,5 @@ object Account extends Database {
         """.execute.apply()
     }
   }
-
-  /*
-  def getAccount: List[Account]= {
-    DB readOnly { implicit session =>
-      sql"select * from account".map(rs => Account(rs.string("Name"), rs.string("Date_of_Birth"),
-        rs.string("Email"), rs.string("LicenseID"), rs.string("Password"),
-        rs.int("AccountID"))).list.apply()
-    }
-  }*/
-
 }
 

@@ -39,8 +39,15 @@ class GroupCreationDialogController(
             errorMessage += "Group name cant be empty!"
         }
 
-        if(errorMessage.length()==0){
+        for(group <- ChatClient.groups){
+            if(group.name == groupNameField.text.value){
+                errorMessage += "Group name already exists!"
+            }
+        }
+
+        if(errorMessage.length() == 0){
             Client.mainController.get.gname = groupNameField.text.value
+            Client.mainController.get.gOwner = Client.loggedInUser
             okClicked = true
             dialogStage.close()
         }

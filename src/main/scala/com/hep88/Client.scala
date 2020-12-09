@@ -41,7 +41,7 @@ object ChatClient {
     final case class Message(msg: String) extends Command
 
     //chat protocol login
-    final case class LogInResult(validity : Boolean, list: Iterable[Group] ) extends Command
+    final case class LogInResult(error: Int, validity : Boolean, list: Iterable[Group] ) extends Command
 
     //chat protocol register
     final case class RegisterResult(validity: Boolean) extends Command
@@ -176,7 +176,7 @@ object ChatClient {
                     }
                     Behaviors.same
 
-                case ChatClient.LogInResult(result,x)=>
+                case ChatClient.LogInResult(errorcode,result,x)=>
                     if(result==true){
                         Platform.runLater{
                             Client.loginController.get.successfulLogin()
@@ -187,7 +187,7 @@ object ChatClient {
                     }
                     else{
                         Platform.runLater{
-                            Client.loginController.get.failedLogin()
+                            Client.loginController.get.failedLogin(errorcode)
                         }
                     }
                     Behaviors.same

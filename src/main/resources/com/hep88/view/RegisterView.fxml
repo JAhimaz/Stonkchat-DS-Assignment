@@ -70,5 +70,10 @@
             <Font name="Arial" size="12.0" />
          </font>
       </Label>
+      <Text fx:id="errorText" fill="RED" layoutX="407.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error Text Placeholder" wrappingWidth="345.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

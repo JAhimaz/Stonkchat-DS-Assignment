@@ -26,8 +26,7 @@ object ChatServer {
   // Setting this to true will setup the Database
   // Set to false if client (Or when testing client)
 
-  val isServerhost = false
-
+  val isServerhost = true
 
   // ------------------------
 
@@ -82,13 +81,38 @@ object ChatServer {
     Behaviors.receiveMessage { message =>
       message match {
         case LogIn(username,password,from)=>
+        
             val account = new Account(username,password)
-            if(account.isVerify){
-              members+= User(username,from)
+            var userOnline = false
+
+            println(members)
+
+            for (member <- members){
+              if(member.name == username){
+                if(account.isVerify){
+                  userOnline = true
+                }
+              }
             }
-            
-            from ! ChatClient.LogInResult(account.isVerify,groups.toList)
+
+            if(userOnline == false){
+              if(account.isVerify){
+
+                members+= User(username,from)
+
+                from ! ChatClient.LogInResult(0, account.isVerify, groups.toList)
+                Behaviors.same
+              }
+            }
+
+            if(userOnline == true){
+              from ! ChatClient.LogInResult(2, false, groups.toList)
+              Behaviors.same
+            }
+
+            from ! ChatClient.LogInResult(1, false, groups.toList)
             Behaviors.same
+
 
         case LogOut(username,from)=>
             members -= User(username,from)

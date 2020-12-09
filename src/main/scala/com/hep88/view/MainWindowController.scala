@@ -19,19 +19,16 @@ import scalafx.Includes._
 @sfxml
 class MainWindowController(
     private val txtName: Label,
-    private val lblStatus: Label,
     private val listGroup: ListView[Group],
     private val guidePane : Pane
   ) {
 
 
   var chatClientRef: Option[ActorRef[ChatClient.Command]] = None
-
   val receivedText: ObservableBuffer[String] =  new ObservableBuffer[String]()
-
   var dialogStage : Stage  = null
-
-  var gname:String = ""
+  var gname : String = ""
+  var gOwner : String = ""
 
   def openInfo(action : MouseEvent) : Unit = {
     guidePane.visible = true
@@ -78,9 +75,8 @@ class MainWindowController(
     }
     else{
         val okClicked = Client.showGroupCreationDialog()
-
         if(okClicked){
-          Client.userRef ! ChatClient.CreateGroup(gname,Client.loggedInUser)
+          Client.userRef ! ChatClient.CreateGroup(gname , Client.loggedInUser)
         }
     }
 
