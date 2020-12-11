@@ -1,5 +1,12 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\scala\com\hep88\Server.scala:82:7: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: JoinChat(_, _)[0m
-[0m[[0m[33mwarn[0m] [0m[0m      message match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\scala\com\hep88\Client.scala:208:42: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : akka.actor.typed.ActorRef[com.hep88.model.SubGroupActor.Command][0m
+[0m[[0m[31merror[0m] [0m[0m required: Option[akka.actor.typed.ActorRef[com.hep88.model.SubGroupActor.Command]][0m
+[0m[[0m[31merror[0m] [0m[0m                    createdGroupRefOpt = groupRef[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\scala\com\hep88\Client.scala:290:61: value self is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m                    remote ! ChatServer.Leave(name, context.self)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\GL62M 7RD\scalaProjects\STONKCHAT\src\main\scala\com\hep88\Client.scala:292:76: value self is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m                        groupRefOpt.get ! SubGroupActor.Leave(name,context.self)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
