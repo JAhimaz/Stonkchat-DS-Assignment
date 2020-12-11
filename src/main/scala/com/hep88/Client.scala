@@ -167,6 +167,10 @@ object ChatClient {
 
                 case LogOutAttempt(username)=>
                     remoteOpt.map (_ ! ChatServer.LogOut(username,context.self))
+                    if(ChatClient.groupCreated==true){
+                        groupRefOpt.get ! SubGroupActor.CloseGroup(context.self)
+                        ChatClient.groupCreated=false
+                    }
                     Behaviors.same
 
 

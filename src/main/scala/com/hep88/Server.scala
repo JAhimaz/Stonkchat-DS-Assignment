@@ -26,7 +26,7 @@ object ChatServer {
   // Setting this to true will setup the Database
   // Set to false if client (Or when testing client)
 
-  val isServerhost = true
+  val isServerhost = false
 
   // ------------------------
 
