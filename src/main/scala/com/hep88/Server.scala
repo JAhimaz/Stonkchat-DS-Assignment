@@ -26,7 +26,7 @@ object ChatServer {
   // Setting this to true will setup the Database
   // Set to false if client (Or when testing client)
 
-  val isServerhost = true
+  val isServerhost = false
 
   // ------------------------
 
@@ -81,7 +81,7 @@ object ChatServer {
     Behaviors.receiveMessage { message =>
       message match {
         case LogIn(username,password,from)=>
-        
+
             val account = new Account(username,password)
             var userOnline = false
 
