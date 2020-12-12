@@ -25,6 +25,7 @@ class GroupChatController(
     var chatClientRef : Option[ActorRef[ChatClient.Command]] = None
     var groupRef : Option[ActorRef[SubGroupActor.Command]] = None
     var dialogStage : Stage  = null
+    var userMsg : String = ""
 
     val receivedText: ObservableBuffer[String] =  new ObservableBuffer[String]()
 
@@ -48,7 +49,8 @@ class GroupChatController(
     }
 
     def handleSend(actionEvent : ActionEvent) : Unit = {
-        Client.userRef ! ChatClient.SendMessageL(ChatClient.groupRefOpt.get,textMsg.text())
+        userMsg = Client.loggedInUser + ": " +  textMsg.text()
+        Client.userRef ! ChatClient.SendMessageL(ChatClient.groupRefOpt.get,userMsg)
     }
 
     def addText(text : String) : Unit = {

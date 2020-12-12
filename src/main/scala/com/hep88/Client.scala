@@ -72,6 +72,7 @@ object ChatClient {
     val unreachables = new ObservableHashSet[Address]()
     val groups = new ObservableHashSet[Group]()
     var groupRefOpt: Option[ActorRef[SubGroupActor.Command]] = None
+    var createdGroupRefOpt : Option[ActorRef[SubGroupActor.Command]] = None
     var groupOwnerAddress: Option[Address] = None
     var groupName:String=""
     var groupCreated = false
@@ -166,6 +167,10 @@ object ChatClient {
                     
 
                 case LogOutAttempt(username)=>
+                    if(ChatClient.groupCreated==true){
+                        createdGroupRefOpt.get ! SubGroupActor.CloseGroup(context.self)
+                        ChatClient.groupCreated=false
+                    }
                     remoteOpt.map (_ ! ChatServer.LogOut(username,context.self))
                     Behaviors.same
 
@@ -200,6 +205,7 @@ object ChatClient {
                     groupRef ! SubGroupActor.Initializer(Option(context.system.address),gname,remoteOpt.get)
                     remoteOpt.map ( _ ! ChatServer.GroupCreation(gname,name, groupRef,context.self))
                     groupCreated=true
+                    createdGroupRefOpt = Option(groupRef)
                     Behaviors.same
 
                 case ChatClient.JoinGroup(name,groupRef)=>
@@ -210,7 +216,7 @@ object ChatClient {
 
 
                 case DisbandGroup =>
-                    groupRefOpt.get ! SubGroupActor.CloseGroup(context.self)
+                    createdGroupRefOpt.get ! SubGroupActor.CloseGroup(context.self)
                     Behaviors.same
 
 
@@ -282,8 +288,12 @@ object ChatClient {
                 for (name <- nameOpt;
                     remote <- remoteOpt){
                     remote ! ChatServer.Leave(name, context.self)
-                    groupRefOpt.get ! SubGroupActor.Leave(name,context.self)
+                    if(groupRefOpt != None){
+                        groupRefOpt.get ! SubGroupActor.Leave(name,context.self)
+                    }
                 }
+
+                
                 Behaviors.same
         })
         defaultBehavior.get
