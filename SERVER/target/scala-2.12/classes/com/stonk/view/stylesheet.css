@@ -1,0 +1,34 @@
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: transparent;
+   -fx-cursor: default;
+}
+
+.button{
+   -fx-background-color: #7b007a; 
+   -fx-border-color: #ac20aa; 
+   -fx-border-radius: 5px;
+}
+
+.button:hover {
+   -fx-background-color: #b809b7;
+}
+
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+   -fx-background-color: transparent;
+   -margin-top: 10px;
+   -fx-text-fill: white; /* 5 */
+}
+
+.list-cell { 
+   -fx-background-color: transparent;
+   -margin-top: 10px;
+   -fx-text-fill:white; /* 5 */ 
+   -fx-font-family: "Arial";
+   -fx-font-size: 15px
+}
+.list-cell:filled:hover { 
+   -fx-background-color: transparent; /* 2 */
+   -margin-top: 10px;
+   -fx-text-fill: white; /* 5 */
+}
