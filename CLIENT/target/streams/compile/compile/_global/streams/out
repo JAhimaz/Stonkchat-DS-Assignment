@@ -1,0 +1,6 @@
+[0m[[0m[33mwarn[0m] [0m[0mD:\BSC\DS\final\Stonkchat-DS-Assignment\CLIENT\src\main\scala\com\stonk\Server.scala:82:7: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: JoinChat(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      message match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were three deprecation warnings (since 8.0.60-R10); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
