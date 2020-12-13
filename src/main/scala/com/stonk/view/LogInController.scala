@@ -80,7 +80,7 @@ class LogInController (
   }
 
 
-  def handleResetPass(action: ActionEvent):Unit={
+  def handleResetPass(event : MouseEvent):Unit={
     Client.showUserNameRequestDialog()
   }
     

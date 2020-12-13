@@ -12,8 +12,8 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #201f1f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stonk.view.RegistryController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="580.0" layoutX="9.0" layoutY="23.0" stroke="#393939" strokeType="INSIDE" width="780.0" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="23.0" />
-      <Label layoutX="35.0" layoutY="30.0" text="REGISTER" textFill="#ac20aa">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="580.0" layoutX="9.0" layoutY="23.0" stroke="#393939" strokeType="INSIDE" width="780.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Label layoutX="35.0" layoutY="30.0" text="REGISTER" textFill="#ac20aa" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="30.0">
          <font>
             <Font name="Arial Bold" size="32.0" />
          </font>
@@ -23,7 +23,7 @@
             <Font name="Arial" size="17.0" />
          </font>
       </Label>
-      <TextField fx:id="usernameField" layoutX="407.0" layoutY="107.0" prefHeight="40.0" prefWidth="345.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="453.0">
+      <TextField fx:id="usernameField" layoutX="407.0" layoutY="107.0" prefHeight="40.0" prefWidth="345.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="450.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
@@ -40,7 +40,7 @@
          </font>
       </Button>
       <Line endX="81.0" endY="441.5" layoutX="283.0" layoutY="59.0" startX="81.0" startY="48.0" stroke="#393939" />
-      <Text fill="#5b5b5b" layoutX="35.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At StonkChat, accessible at StonkChat.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by StonkChat and how we use it.If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at StonkChat@StonkChat.comThis privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in StonkChat. This policy is not applicable to any information collected offline or via channels other than this website.ConsentBy using our website, you hereby consent to our Privacy Policy and agree to its terms.Information we collectThe personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number." wrappingWidth="305.0">
+      <Text fill="#5b5b5b" layoutX="35.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="At StonkChat, accessible at StonkChat.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by StonkChat and how we use it.If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at StonkChat@StonkChat.comThis privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in StonkChat. This policy is not applicable to any information collected offline or via channels other than this website.ConsentBy using our website, you hereby consent to our Privacy Policy and agree to its terms.Information we collectThe personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information." wrappingWidth="305.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
@@ -55,35 +55,40 @@
             <Font name="Arial" size="17.0" />
          </font>
       </Label>
-      <PasswordField fx:id="passwordField" layoutX="407.0" layoutY="171.0" prefHeight="40.0" prefWidth="345.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="389.0">
+      <PasswordField fx:id="passwordField" layoutX="407.0" layoutY="171.0" prefHeight="40.0" prefWidth="345.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="390.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </PasswordField>
-      <PasswordField fx:id="confirmPasswordField" layoutX="407.0" layoutY="232.0" prefHeight="40.0" prefWidth="345.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="328.0">
+      <PasswordField fx:id="confirmPasswordField" layoutX="407.0" layoutY="232.0" prefHeight="40.0" prefWidth="345.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="330.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </PasswordField>
-      <Label alignment="CENTER_RIGHT" layoutX="399.0" layoutY="403.0" prefHeight="17.0" prefWidth="345.0" text="By Clicking &quot;Create Account&quot;, You Agree to The Policy Privacy." textAlignment="RIGHT" textFill="#5b5b5b">
+      <Label layoutX="407.0" layoutY="423.0" prefHeight="17.0" prefWidth="345.0" text="By Clicking &quot;Create Account&quot;, You Agree to The Policy Privacy." textAlignment="RIGHT" textFill="#5b5b5b" AnchorPane.bottomAnchor="160.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </Label>
-      <Text fx:id="errorText" fill="RED" layoutX="407.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error Text Placeholder" wrappingWidth="345.0">
+      <Text fx:id="errorText" fill="RED" layoutX="35.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error Text Placeholder" wrappingWidth="305.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </Text>
-      <TextField fx:id="securityQuestionField" layoutX="407.0" layoutY="293.0" prefHeight="40.0" prefWidth="345.0" promptText="Security Question" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;">
+      <TextField fx:id="securityQuestionField" layoutX="407.0" layoutY="293.0" prefHeight="40.0" prefWidth="345.0" promptText="Security Question" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="250.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
-      <TextField fx:id="securityAnswerField" layoutX="407.0" layoutY="354.0" prefHeight="40.0" prefWidth="345.0" promptText="Security Answer" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;">
+      <TextField fx:id="securityAnswerField" layoutX="407.0" layoutY="354.0" prefHeight="40.0" prefWidth="345.0" promptText="Security Answer" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="190.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </TextField>
+      <Label layoutX="407.0" layoutY="283.0" prefHeight="17.0" prefWidth="345.0" text="For Account Recovery, Please Enter A Question &amp; Answer." textFill="#5b5b5b">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
