@@ -97,7 +97,7 @@ class MainWindowController(
         val alert = new Alert(Alert.AlertType.Warning) {
         initOwner(dialogStage)
         title = "NO GROUPS CREATED"
-        headerText = "YOU DONT HAVE NOT CREATED A GROUP YET"
+        headerText = "YOU HAVE NOT CREATED A GROUP YET"
         contentText = "YOU CAN DISBAND YOUR GROUP WHEN YOU HAVE CREATED ONE"
         }.showAndWait()
     }

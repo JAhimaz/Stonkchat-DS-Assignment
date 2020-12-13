@@ -14,8 +14,10 @@ import com.stonk.Client
 class UserNameRequestController(
     private val userNameField: TextField,
     private val errorText: Label
-
 ){
+
+    errorText.text = ""
+
     var dialogStage: Stage = null
     var okClicked = false
     var chatClientRef: Option[ActorRef[ChatClient.Command]] = None
@@ -38,9 +40,6 @@ class UserNameRequestController(
         else{
             errorText.text=errorMessage
         }
-
-
-
     }
 
 

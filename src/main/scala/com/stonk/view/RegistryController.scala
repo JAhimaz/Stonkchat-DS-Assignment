@@ -16,13 +16,13 @@ import com.stonk.ChatClient
 
 @sfxml
 class RegistryController(
-                        private val usernameField : TextField,
-                        private val passwordField: PasswordField,
-                        private val confirmPasswordField: PasswordField,
-                        private val securityQuestionField: TextField,
-                        private val securityAnswerField: TextField,
-                        private val errorText: Text
-                        ) {
+      private val usernameField : TextField,
+      private val passwordField: PasswordField,
+      private val confirmPasswordField: PasswordField,
+      private val securityQuestionField: TextField,
+      private val securityAnswerField: TextField,
+      private val errorText: Text
+    ) {
 
     var dialogStage: Stage = null
     var chatClientRef: Option[ActorRef[ChatClient.Command]] = None
@@ -71,21 +71,46 @@ class RegistryController(
       errorMessage += "Username can only be [A-Z ... 0-9]!\n"
     }
 
+    if(!containsNoSpecialChars(passwordField.text.value)){
+      errorMessage += "Password can only be [A-Z ... 0-9]!\n"
+    }
+
     if (nullChecking(usernameField.text.value)) {
       errorMessage += "Username field is empty!\n"
     }
+
     if (nullChecking(passwordField.text.value)) {
       errorMessage += "Password field is empty!\n"
     }
+
     if (nullChecking(confirmPasswordField.text.value)) {
       errorMessage += "Confirm Password field is empty!\n"
     }
+
     if (nullChecking(securityQuestionField.text.value)) {
       errorMessage += "Security Question field is empty!\n"
     }
+
     if (nullChecking(securityAnswerField.text.value)) {
       errorMessage += "Security Answer field is empty!\n"
     }
+
+    if (usernameField.text.value.length > 64){
+      errorMessage += "Username Cannot Be More Than 64 Characters\n"
+    }
+
+    if (passwordField.text.value.length > 20){
+      errorMessage += "Password Cannot Be More Than 20 Characters\n"
+    }
+
+    if (securityQuestionField.text.value.length > 64){
+      errorMessage += "Question Cannot Be More Than 64 Characters\n"
+    }
+
+    if (securityAnswerField.text.value.length > 64){
+      errorMessage += "Answer Cannot Be More Than 64 Characters\n"
+    }
+
     if(passwordField.text.value!= confirmPasswordField.text.value){
       errorMessage += "Passwords doesn't match!"
     }

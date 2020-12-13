@@ -129,11 +129,11 @@ object ChatClient {
                 // (4) send a Find message to the Receptionist, saying
                     // that we want to find any/all listings related to
                     // Mouth.MouthKey, i.e., the Mouth actor.
+
                 case FindTheServer =>
                     println(s"Clinet Hello: got a FindTheServer message")
                     context.system.receptionist !
                         Receptionist.Find(ChatServer.ServerKey, listingAdapter)
-
                     Behaviors.same
                     // (5) after Step 4, the Receptionist sends us this
                     // ListingResponse message. the `listings` variable is
@@ -142,6 +142,7 @@ object ChatClient {
                     // this example i know that there will be at most one
                     // ChatServer actor, but in other cases there may be more
                     // than one actor in this set.
+
                 case ListingResponse(ChatServer.ServerKey.Listing(listings)) =>
                     val xs: Set[ActorRef[ChatServer.Command]] = listings
                     for (x <- xs) {
@@ -267,9 +268,6 @@ object ChatClient {
                     }
                     Behaviors.same
 
-
-
-
                 case LeaveGroup(gref) =>
                     gref ! SubGroupActor.Leave(nameOpt.get,context.self)
                     groupOwnerAddress= None
@@ -333,7 +331,6 @@ object ChatClient {
                         groupRefOpt.get ! SubGroupActor.Leave(name,context.self)
                     }
                 }
-
                 
                 Behaviors.same
         })

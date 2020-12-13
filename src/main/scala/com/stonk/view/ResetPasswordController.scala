@@ -17,8 +17,8 @@ import scalafx.stage.Stage
 
 @sfxml
 class ResetPasswordController(
-    private val username: TextField,
-    private val questionField: TextField,
+    private val username: Label,
+    private val questionField: Label,
     private val answerField: TextField,
     private val passwordField: TextField,
     private val confirmPasswordField: TextField,
@@ -27,6 +27,7 @@ class ResetPasswordController(
 ){
     var dialogStage: Stage = null
 
+    errorText.text = ""
 
     var chatClientRef : Option[ActorRef[ChatClient.Command]] = None
 
@@ -48,27 +49,40 @@ class ResetPasswordController(
 
     def nullChecking(x: String) = x == null || x.length == 0
 
+    def containsNoSpecialChars(string: String) = string.matches("^[a-zA-Z\\d-_]*$")
+
     def isInputValid():Boolean={
-        var errorMessage=""
+        var errorMessage = ""
+
+        if(!containsNoSpecialChars(passwordField.text.value)){
+            errorMessage += "Password can only be [A-Z ... 0-9]!\n"
+        }
 
         if(nullChecking(answerField.text.value)){
             errorMessage += "Answer cant be empty!\n"
         }
+
         if(nullChecking(passwordField.text.value)){
             errorMessage += "New password cant be empty!\n"
         }
+
+        if (passwordField.text.value.length > 20){
+            errorMessage += "Password Cannot Be More Than 20 Characters\n"
+        }
+
         if(nullChecking(confirmPasswordField.text.value)){
             errorMessage += "Please double confirm your new password!\n"
         }
+
         if(passwordField.text.value!= confirmPasswordField.text.value){
-        errorMessage += "Passwords doesn't match!"
+            errorMessage += "Passwords doesn't match!"
         }
 
         if(errorMessage.length()==0){
             return true
         }
         else{
-            errorText.text=errorMessage
+            errorText.text = errorMessage
             return false
         }
     }
