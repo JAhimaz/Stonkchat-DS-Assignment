@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #201f1f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.stonk.view.RegistryController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="580.0" layoutX="24.0" layoutY="24.0" stroke="#393939" strokeType="INSIDE" width="780.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="580.0" layoutX="9.0" layoutY="23.0" stroke="#393939" strokeType="INSIDE" width="780.0" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="23.0" />
       <Label layoutX="35.0" layoutY="30.0" text="REGISTER" textFill="#ac20aa">
          <font>
             <Font name="Arial Bold" size="32.0" />
@@ -23,7 +23,7 @@
             <Font name="Arial" size="17.0" />
          </font>
       </Label>
-      <TextField fx:id="usernameField" layoutX="407.0" layoutY="170.0" prefHeight="40.0" prefWidth="345.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="380.0">
+      <TextField fx:id="usernameField" layoutX="407.0" layoutY="107.0" prefHeight="40.0" prefWidth="345.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="453.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
@@ -55,25 +55,35 @@
             <Font name="Arial" size="17.0" />
          </font>
       </Label>
-      <PasswordField fx:id="passwordField" layoutX="407.0" layoutY="255.0" prefHeight="40.0" prefWidth="345.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="320.0">
+      <PasswordField fx:id="passwordField" layoutX="407.0" layoutY="171.0" prefHeight="40.0" prefWidth="345.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="389.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </PasswordField>
-      <PasswordField fx:id="confirmPasswordField" layoutX="407.0" layoutY="300.0" prefHeight="40.0" prefWidth="345.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="260.0">
+      <PasswordField fx:id="confirmPasswordField" layoutX="407.0" layoutY="232.0" prefHeight="40.0" prefWidth="345.0" promptText="Confirm Password" style="-fx-background-color: transparent; -fx-border-color: #ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;" AnchorPane.bottomAnchor="328.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </PasswordField>
-      <Label alignment="CENTER_RIGHT" layoutX="407.0" layoutY="354.0" prefHeight="17.0" prefWidth="345.0" text="By Clicking &quot;Create Account&quot;, You Agree to The Policy Privacy." textAlignment="RIGHT" textFill="#5b5b5b">
+      <Label alignment="CENTER_RIGHT" layoutX="399.0" layoutY="403.0" prefHeight="17.0" prefWidth="345.0" text="By Clicking &quot;Create Account&quot;, You Agree to The Policy Privacy." textAlignment="RIGHT" textFill="#5b5b5b">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </Label>
-      <Text fx:id="errorText" fill="RED" layoutX="407.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error Text Placeholder" wrappingWidth="345.0">
+      <Text fx:id="errorText" fill="RED" layoutX="407.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error Text Placeholder" wrappingWidth="345.0">
          <font>
             <Font name="Arial" size="12.0" />
          </font>
       </Text>
+      <TextField fx:id="securityQuestionField" layoutX="407.0" layoutY="293.0" prefHeight="40.0" prefWidth="345.0" promptText="Security Question" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="securityAnswerField" layoutX="407.0" layoutY="354.0" prefHeight="40.0" prefWidth="345.0" promptText="Security Answer" style="-fx-background-color: transparent; -fx-border-color: ac20aa; -fx-border-radius: 5px; -fx-prompt-text-fill: #484848; -fx-text-fill: white;">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
    </children>
 </AnchorPane>

@@ -1,289 +1,335 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\stonkchat-ds-assignment_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\stonkchat_2.12-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\application.conf[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$$anonfun$$nestedInanonfun$apply$1$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$$anonfun$$nestedInanonfun$apply$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$$anonfun$$nestedInanonfun$apply$1$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$CheckUserExist$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$CheckUserExist$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$CheckUserExist.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$CheckUserExist.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$Command.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$Command.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$CreateGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$CreateGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$CreateGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$CreateGroup.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$CreateGroup.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$CreateGroup.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$DisbandGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$DisbandGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$DisbandGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$DisplayMemberList$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$DisplayMemberList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$DisplayMemberList$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$DisplayMemberList.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$DisplayMemberList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$DisplayMemberList.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$FindTheServer$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$FindTheServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$FindTheServer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$GroupList$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$GroupList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$GroupList$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$GroupList.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$GroupList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$GroupList.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$GroupOwnerLeft$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$GroupOwnerLeft$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$GroupOwnerLeft$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$Joined$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$Joined$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$Joined$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$Joined.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$Joined.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$Joined.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$JoinGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$JoinGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$JoinGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$JoinGroup.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$JoinGroup.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$JoinGroup.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LeaveGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LeaveGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LeaveGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LeaveGroup.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LeaveGroup.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LeaveGroup.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$ListingResponse$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$ListingResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$ListingResponse$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$ListingResponse.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$ListingResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$ListingResponse.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LogInAttempt$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LogInAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LogInAttempt$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LogInAttempt.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LogInAttempt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LogInAttempt.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LogInResult$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LogInResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LogInResult$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LogInResult.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LogInResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LogInResult.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LogOutAttempt$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LogOutAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LogOutAttempt$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LogOutAttempt.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LogOutAttempt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LogOutAttempt.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$LogOutResult$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$LogOutResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$LogOutResult$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$MemberList$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$MemberList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$MemberList$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$MemberList.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$MemberList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$MemberList.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$Message$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$Message$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$Message$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$Message.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$Message.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$Message.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$PromptResetPassword$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$PromptResetPassword$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$PromptResetPassword.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$PromptResetPassword.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$ReachabilityChange$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$ReachabilityChange$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$ReachabilityChange$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$ReachabilityChange.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$ReachabilityChange.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$ReachabilityChange.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$RegisterAttempt$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$RegisterAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$RegisterAttempt$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$RegisterAttempt.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$RegisterAttempt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$RegisterAttempt.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$RegisterResult$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$RegisterResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$RegisterResult$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$RegisterResult.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$RegisterResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$RegisterResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$RequestChangePassword$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$RequestChangePassword$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$RequestChangePassword.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$RequestChangePassword.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$ResetPasswordResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$ResetPasswordResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$ResetPasswordResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$ResetPasswordResult.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$SendMessageL$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$SendMessageL$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$SendMessageL$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$SendMessageL.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$SendMessageL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$SendMessageL.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$start$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$start$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$start$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$StartJoin$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$StartJoin$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$StartJoin$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient$StartJoin.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient$StartJoin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient$StartJoin.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatClient.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatClient.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$Command.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$GetUserQuestion$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$GetUserQuestion$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$GetUserQuestion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$GetUserQuestion.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$GroupCreation$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$GroupCreation$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$GroupCreation$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$GroupCreation.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$GroupCreation.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$GroupCreation.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$GroupLeave$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$GroupLeave$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$GroupLeave$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$GroupLeave.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$GroupLeave.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$GroupLeave.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$JoinChat$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$JoinChat$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$JoinChat$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$JoinChat.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$JoinChat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$JoinChat.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$Leave$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$Leave$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$Leave$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$Leave.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$Leave.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$Leave.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$LogIn$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$LogIn$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$LogIn$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$LogIn.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$LogIn.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$LogIn.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$LogOut$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$LogOut$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$LogOut$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$LogOut.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$LogOut.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$LogOut.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$RegisterUser$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$RegisterUser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$RegisterUser$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$RegisterUser.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer$RegisterUser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$RegisterUser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$ResetPasswordAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$ResetPasswordAttempt$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer$ResetPasswordAttempt.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer$ResetPasswordAttempt.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\ChatServer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\ChatServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\ChatServer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$$anon$1$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$$anon$1$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$$anon$3$$anon$4.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$$anon$3$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$$anon$5$$anon$6.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client$$anon$5$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$$anon$5$$anon$6.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$$anon$5.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$$anon$7$$anon$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$$anon$7$$anon$8.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$$anon$7.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$$anon$7.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Client.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Client.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Client.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Cling$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Cling$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Cling$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Cling$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Cling$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Cling$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Cling.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Cling.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Cling.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Group$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Group$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Group$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Group.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Group.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Group.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\Account$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\Account$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\Account$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\Account.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\Account.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$$anonfun$$nestedInanonfun$apply$1$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$$anonfun$$nestedInanonfun$apply$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$$anonfun$$nestedInanonfun$apply$1$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$CloseGroup$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$CloseGroup$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$CloseGroup$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$CloseGroup.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$CloseGroup.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$CloseGroup.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$Command.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Command.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$DisplayMembers$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$DisplayMembers$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$DisplayMembers$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$DisplayMembers.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$DisplayMembers.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$DisplayMembers.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$GroupMessage$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$GroupMessage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$GroupMessage$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$GroupMessage.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$GroupMessage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$GroupMessage.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$Initializer$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Initializer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Initializer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$Initializer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Initializer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Initializer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$JoinChat$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$JoinChat$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$JoinChat$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$JoinChat.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$JoinChat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$JoinChat.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$Leave$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Leave$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Leave$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor$Leave.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Leave.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor$Leave.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\model\SubGroupActor.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\model\SubGroupActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\model\SubGroupActor.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\MyConfiguration$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\MyConfiguration$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\MyConfiguration$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\MyConfiguration.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\MyConfiguration.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\MyConfiguration.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\protocol[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\protocol[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\protocol[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\protocol\JsonSerializable.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\protocol\JsonSerializable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\protocol\JsonSerializable.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Server$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Server$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Server$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Server$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Server$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Server$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Server.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Server.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Server.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Upnp$$anonfun$$nestedInanonfun$apply$1$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Upnp$$anonfun$$nestedInanonfun$apply$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Upnp$$anonfun$$nestedInanonfun$apply$1$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Upnp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Upnp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Upnp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Upnp$AddPortMapping$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Upnp$AddPortMapping$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Upnp$AddPortMapping$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Upnp$AddPortMapping.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Upnp$AddPortMapping.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Upnp$AddPortMapping.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Upnp$Command.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Upnp$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Upnp$Command.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\Upnp.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\Upnp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\Upnp.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\User$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\User$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\User$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\User.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\User.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\util[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\util[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\util[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\util\Database$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\util\Database$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\util\Database$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\util\Database.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\util\Database.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\util\Database.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\GroupChatController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\GroupChatController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\GroupChatController$Controller$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\GroupChatController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\GroupChatController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\GroupChatController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\GroupChatController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\GroupChatController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\GroupChatController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\GroupCreationDialog.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\GroupCreationDialog.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\GroupCreationDialog.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\GroupCreationDialogController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\GroupCreationDialogController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\GroupCreationDialogController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\GroupCreationDialogController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\GroupCreationDialogController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\GroupCreationDialogController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\groupView.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\groupView.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\groupView.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\LogInController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\LogInController$Controller$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\LogInController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\LogInController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\LogInController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\LogInController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\LogInController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\LogInController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\LogInView.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\LogInView.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\LogInView.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\MainWindow.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\MainWindow.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\MainWindow.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\MainWindowController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\MainWindowController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\MainWindowController$Controller$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\MainWindowController$Controller$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\MainWindowController$Controller$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\MainWindowController$Controller$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\MainWindowController$Controller$$anon$3.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\MainWindowController$Controller$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\MainWindowController$Controller$$anon$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\MainWindowController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\MainWindowController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\MainWindowController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\MainWindowController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\MainWindowController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\MainWindowController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\MemberListViewDialog.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\MemberListViewDialog.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\MemberListViewDialog.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\RegisterView.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\RegisterView.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\RegisterView.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\RegistryController$Controller$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\RegistryController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\RegistryController$Controller$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\RegistryController$Controller$$anon$2.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\RegistryController$Controller$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\RegistryController$Controller$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\RegistryController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\RegistryController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\RegistryController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\RegistryController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\RegistryController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\RegistryController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\ResetPassword.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\ResetPassword.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\ResetPasswordController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\ResetPasswordController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\ResetPasswordController$Controller$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\ResetPasswordController$Controller$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\ResetPasswordController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\ResetPasswordController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\ResetPasswordController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\ResetPasswordController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\RootLayout.fxml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\RootLayout.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\RootLayout.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\stylesheet.css[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\stylesheet.css[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\stylesheet.css[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\UserNameRequestController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\UserNameRequestController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\UserNameRequestController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\UserNameRequestController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\UsernameRequestDialog.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\UsernameRequestDialog.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\ViewMemberListDialogController$Controller.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\ViewMemberListDialogController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\ViewMemberListDialogController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	com\stonk\view\ViewMemberListDialogController.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\com\stonk\view\ViewMemberListDialogController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\com\stonk\view\ViewMemberListDialogController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	images[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\images[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\images[0m
 [0m[[0m[0mdebug[0m] [0m[0m	images\Logo.png[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  D:\University\Distributed Systems\Final Project\Stonkchat-DS-Assignment\target\scala-2.12\classes\images\Logo.png[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\GL62M 7RD\Desktop\STONKCHAT\target\scala-2.12\classes\images\Logo.png[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

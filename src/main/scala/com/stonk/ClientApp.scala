@@ -46,6 +46,8 @@ object Client extends JFXApp {
   var groupCreationController : Option[com.stonk.view.GroupCreationDialogController#Controller] = None
   var groupChatController : Option[com.stonk.view.GroupChatController#Controller] = None
   var viewMemberListController : Option[com.stonk.view.ViewMemberListDialogController#Controller] = None
+  var userNameRequestController : Option[com.stonk.view.UserNameRequestController#Controller] = None
+  var resetPasswordController: Option[com.stonk.view.ResetPasswordController#Controller] = None
 
   //code for akka system initialization
   implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
@@ -122,6 +124,18 @@ object Client extends JFXApp {
   }
 
 
+  def showResetPassword(question: String,username: String):Unit={
+    val resource = getClass.getResourceAsStream("view/ResetPassword.fxml")
+    val loader = new FXMLLoader(null, NoDependencyResolver)
+    loader.load(resource);
+    val roots = loader.getRoot[jfxs.layout.AnchorPane]
+    resetPasswordController = Option(loader.getController[com.stonk.view.ResetPasswordController#Controller])
+    resetPasswordController.get.chatClientRef = Option(userRef)
+    resetPasswordController.get.resetInitializer(username,question)
+    this.roots.setCenter(roots)
+  }
+
+
   def showGroupCreationDialog():Boolean ={
     val resource = getClass.getResourceAsStream("view/GroupCreationDialog.fxml")
     val loader = new FXMLLoader(null, NoDependencyResolver)
@@ -142,6 +156,27 @@ object Client extends JFXApp {
     //groupCreationController.get.gname = gname
     dialog.showAndWait()
     groupCreationController.get.okClicked
+  }
+
+  def showUserNameRequestDialog():Boolean ={
+    val resource = getClass.getResourceAsStream("view/UsernameRequestDialog.fxml")
+    val loader = new FXMLLoader(null, NoDependencyResolver)
+    loader.load(resource);
+    val roots2 = loader.getRoot[jfxs.Parent]
+    
+    userNameRequestController = Option(loader.getController[com.stonk.view.UserNameRequestController#Controller])
+    userNameRequestController.get.chatClientRef = Option(userRef)
+    roots2.stylesheets = List(cssResource.toExternalForm)
+    val dialog = new Stage() {
+      initModality(Modality.APPLICATION_MODAL)
+      initOwner(stage)
+      scene = new Scene {
+        root = roots2
+      }
+    }
+    userNameRequestController.get.dialogStage = dialog
+    dialog.showAndWait()
+    userNameRequestController.get.okClicked
   }
 
 

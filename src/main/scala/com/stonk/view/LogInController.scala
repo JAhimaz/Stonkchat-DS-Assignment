@@ -78,6 +78,11 @@ class LogInController (
     }
 
   }
+
+
+  def handleResetPass(action: ActionEvent):Unit={
+    Client.showUserNameRequestDialog()
+  }
     
   def showRegistry(event : MouseEvent) = {
     val resource = getClass.getResourceAsStream("/com/stonk/view/RegisterView.fxml")
@@ -88,5 +93,15 @@ class LogInController (
     Client.registerController.get.chatClientRef = Option(Client.userRef)
     Client.roots.setCenter(roots2)
   }
+
+  def failedResetPassword():Unit={
+    val alert = new Alert(Alert.AlertType.Information){
+        initOwner(dialogStage)
+        title = "Non-existant Username"
+        headerText= "Could not find user"
+        contentText=  "Please enter a valid username"
+    }.showAndWait()
+  }
+  
 
 }

@@ -30,7 +30,7 @@ object ChatClient {
     case class StartJoin(name: String) extends Command
     final case class SendMessageL(target: ActorRef[SubGroupActor.Command], content: String) extends Command
     case class LogInAttempt(username : String,password : String) extends Command
-    case class RegisterAttempt(username: String,password : String) extends Command
+    case class RegisterAttempt(username: String,password : String,question: String, answer: String) extends Command
     case class LogOutAttempt(username: String) extends Command
 
    
@@ -46,6 +46,12 @@ object ChatClient {
     //chat protocol register
     final case class RegisterResult(validity: Boolean) extends Command
     final case object LogOutResult extends Command
+
+    //chat protocol reset password
+    final case class CheckUserExist(username: String) extends Command
+    final case class PromptResetPassword(question: String,username : String) extends Command
+    final case class RequestChangePassword(answer: String, password: String,username: String) extends Command
+    final case class ResetPasswordResult(result: Boolean) extends Command
 
     //group chat protocol
     final case class CreateGroup(gname : String,name : String) extends Command
@@ -143,11 +149,12 @@ object ChatClient {
                     }
                     Behaviors.same
                 
-                case RegisterAttempt(username,password)=>
-                    remoteOpt.map (_ ! ChatServer.RegisterUser(username,password,context.self))
+                case RegisterAttempt(username,password,question,answer)=>
+                    remoteOpt.map (_ ! ChatServer.RegisterUser(username,password,question,answer,context.self))
                     Behaviors.same
 
                 case ChatClient.RegisterResult(result)=>
+                    println("No problem in result---")
                     if(result==true){
                         Platform.runLater{
                             Client.registerController.get.successfulRegister()
@@ -197,6 +204,40 @@ object ChatClient {
                     }
                     Behaviors.same
 
+                case CheckUserExist(username)=>
+                    remoteOpt.map (_ ! ChatServer.GetUserQuestion(username,context.self))
+                    Behaviors.same
+
+                case PromptResetPassword(question,username)=>
+                    if(question.length() != 0){
+                        Platform.runLater{
+                            Client.showResetPassword(question,username)
+                        }
+                        
+                    }
+                    else{
+                        Platform.runLater{
+                            Client.loginController.get.failedResetPassword()
+                        }
+                    }
+                    Behaviors.same
+
+                case RequestChangePassword(answer,password,username)=>
+                    remoteOpt.map (_ ! ChatServer.ResetPasswordAttempt(answer,password,username,context.self))
+                    Behaviors.same
+
+                case ResetPasswordResult(result)=>
+                    if(result==false){
+                        Platform.runLater{
+                            Client.resetPasswordController.get.resetFailed
+                        }
+                    }
+                    else{
+                        Platform.runLater{
+                            Client.resetPasswordController.get.resetSuccess
+                        }
+                    }
+                    Behaviors.same
 
                 case CreateGroup(gname,name)=>
                     // help make sure doesnt repeat

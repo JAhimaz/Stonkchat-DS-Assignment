@@ -42,7 +42,9 @@ object ChatServer {
   //database protocol
   case class LogIn(username: String,password: String, from: ActorRef[ChatClient.Command]) extends Command
   case class LogOut(username: String, from: ActorRef[ChatClient.Command]) extends Command
-  case class RegisterUser(username: String,password: String,from: ActorRef[ChatClient.Command]) extends Command
+  case class RegisterUser(username: String,password: String,question: String, answer: String, from: ActorRef[ChatClient.Command]) extends Command
+  case class GetUserQuestion(username: String,from : ActorRef[ChatClient.Command]) extends Command
+  case class ResetPasswordAttempt(answer: String , password: String, username: String, from: ActorRef[ChatClient.Command] ) extends Command
   
   //group creation protocol
   case class GroupCreation(gname : String, name: String, gref: ActorRef[SubGroupActor.Command], from: ActorRef[ChatClient.Command] ) extends Command
@@ -82,7 +84,7 @@ object ChatServer {
       message match {
         case LogIn(username,password,from)=>
 
-            val account = new Account(username,password)
+            val account = new Account(username,password,"","")
             var userOnline = false
 
             println(members)
@@ -119,8 +121,8 @@ object ChatServer {
             from ! ChatClient.LogOutResult
             Behaviors.same
 
-        case RegisterUser(username,password,from)=>
-            val account = new Account(username,password)
+        case RegisterUser(username,password,question,answer,from)=>
+            val account = new Account(username,password,question,answer)
             if(account.isExist){
               from ! ChatClient.RegisterResult(false)
             }
@@ -129,6 +131,23 @@ object ChatServer {
               from ! ChatClient.RegisterResult(true)
             }
             Behaviors.same
+
+        case GetUserQuestion(username,from)=>
+            val account= new Account(username,"","","")
+            from ! ChatClient.PromptResetPassword(account.obtainSecurityQ,username)
+            Behaviors.same
+
+        case ResetPasswordAttempt(answer,password,username,from)=>
+            val account= new Account(username,password,"",answer)
+            if(account.verifySecurityQA){
+              account.changePassword
+              from ! ChatClient.ResetPasswordResult(true)
+            }
+            else{
+              from ! ChatClient.ResetPasswordResult(false)
+            }
+            Behaviors.same
+
           case Leave(name, from) => 
             members -= User(name, from)
             Behaviors.same

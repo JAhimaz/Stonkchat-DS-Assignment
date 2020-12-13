@@ -43,5 +43,6 @@
          <font>
             <Font name="Arial" size="12.0" />
          </font></Label>
+      <Button layoutX="329.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleResetPass" text="RESET PASSWORD" />
    </children>
 </AnchorPane>

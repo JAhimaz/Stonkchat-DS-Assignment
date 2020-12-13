@@ -19,6 +19,8 @@ class RegistryController(
                         private val usernameField : TextField,
                         private val passwordField: PasswordField,
                         private val confirmPasswordField: PasswordField,
+                        private val securityQuestionField: TextField,
+                        private val securityAnswerField: TextField,
                         private val errorText: Text
                         ) {
 
@@ -29,7 +31,7 @@ class RegistryController(
 
     def handleSignUp(action:ActionEvent): Unit= {
         if (isInputValid) {
-            chatClientRef map (_ ! ChatClient.RegisterAttempt(usernameField.text(),passwordField.text()))
+            chatClientRef map (_ ! ChatClient.RegisterAttempt(usernameField.text(),passwordField.text(),securityQuestionField.text(),securityAnswerField.text()))
         }
     }
 
@@ -77,6 +79,12 @@ class RegistryController(
     }
     if (nullChecking(confirmPasswordField.text.value)) {
       errorMessage += "Confirm Password field is empty!\n"
+    }
+    if (nullChecking(securityQuestionField.text.value)) {
+      errorMessage += "Security Question field is empty!\n"
+    }
+    if (nullChecking(securityAnswerField.text.value)) {
+      errorMessage += "Security Answer field is empty!\n"
     }
     if(passwordField.text.value!= confirmPasswordField.text.value){
       errorMessage += "Passwords doesn't match!"
