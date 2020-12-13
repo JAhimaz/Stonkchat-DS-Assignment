@@ -1,7 +1,7 @@
 val AkkaVersion = "2.6.10"
 val AkkaManagementVersion = "1.0.9"
  
-resolvers += ("custome1" at "http://4thline.org/m2").withAllowInsecureProtocol(true)
+resolvers += "custome1" at "http://4thline.org/m2"
  
 addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full)
  
