@@ -1,1 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0minsecure HTTP request is deprecated 'http://4thline.org/m2'; switch to HTTPS or opt-in as ("custome1" at "http://4thline.org/m2").withAllowInsecureProtocol(true)[0m
